@@ -1,0 +1,2489 @@
+
+pytorch2.15.0:Ø§	
+ç
+inputval_1node_Shape_1"Shape*
+
+end†*
+start†JÑ
+	namespacew_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/sym_size_int_40: aten.sym_size.intJd
+pkg.torch.onnx.class_hierarchyB['_empty_nn_module_stack_from_metadata_hook', 'aten.sym_size.int']Jã
+pkg.torch.onnx.fx_nodeq%sym_size_int_40 : [num_users=6] = call_function[target=torch.ops.aten.sym_size.int](args = (%x, 2), kwargs = {})J^
+pkg.torch.onnx.name_scopes@['_empty_nn_module_stack_from_metadata_hook', 'sym_size_int_40']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+á
+val_1sym_size_int_40node_sym_size_int_40"SqueezeJÑ
+	namespacew_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/sym_size_int_40: aten.sym_size.intJd
+pkg.torch.onnx.class_hierarchyB['_empty_nn_module_stack_from_metadata_hook', 'aten.sym_size.int']Jã
+pkg.torch.onnx.fx_nodeq%sym_size_int_40 : [num_users=6] = call_function[target=torch.ops.aten.sym_size.int](args = (%x, 2), kwargs = {})J^
+pkg.torch.onnx.name_scopes@['_empty_nn_module_stack_from_metadata_hook', 'sym_size_int_40']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+ç
+inputval_2node_Shape_2"Shape*
+
+end†*
+start†JÑ
+	namespacew_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/sym_size_int_41: aten.sym_size.intJd
+pkg.torch.onnx.class_hierarchyB['_empty_nn_module_stack_from_metadata_hook', 'aten.sym_size.int']Jã
+pkg.torch.onnx.fx_nodeq%sym_size_int_41 : [num_users=6] = call_function[target=torch.ops.aten.sym_size.int](args = (%x, 3), kwargs = {})J^
+pkg.torch.onnx.name_scopes@['_empty_nn_module_stack_from_metadata_hook', 'sym_size_int_41']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+á
+val_2sym_size_int_41node_sym_size_int_41"SqueezeJÑ
+	namespacew_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/sym_size_int_41: aten.sym_size.intJd
+pkg.torch.onnx.class_hierarchyB['_empty_nn_module_stack_from_metadata_hook', 'aten.sym_size.int']Jã
+pkg.torch.onnx.fx_nodeq%sym_size_int_41 : [num_users=6] = call_function[target=torch.ops.aten.sym_size.int](args = (%x, 3), kwargs = {})J^
+pkg.torch.onnx.name_scopes@['_empty_nn_module_stack_from_metadata_hook', 'sym_size_int_41']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+ö
+sym_size_int_41
+val_4floordiv_16node_floordiv_16"DivJã
+	namespace~_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/floordiv_16: <built-in function floordiv>Jo
+pkg.torch.onnx.class_hierarchyM['_empty_nn_module_stack_from_metadata_hook', '<built-in function floordiv>']Jã
+pkg.torch.onnx.fx_nodeq%floordiv_16 : [num_users=6] = call_function[target=operator.floordiv](args = (%sym_size_int_41, 2), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['_empty_nn_module_stack_from_metadata_hook', 'floordiv_16']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+ö
+sym_size_int_40
+val_4floordiv_17node_floordiv_17"DivJã
+	namespace~_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/floordiv_17: <built-in function floordiv>Jo
+pkg.torch.onnx.class_hierarchyM['_empty_nn_module_stack_from_metadata_hook', '<built-in function floordiv>']Jã
+pkg.torch.onnx.fx_nodeq%floordiv_17 : [num_users=5] = call_function[target=operator.floordiv](args = (%sym_size_int_40, 2), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['_empty_nn_module_stack_from_metadata_hook', 'floordiv_17']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+ö
+sym_size_int_41
+val_6floordiv_18node_floordiv_18"DivJã
+	namespace~_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/floordiv_18: <built-in function floordiv>Jo
+pkg.torch.onnx.class_hierarchyM['_empty_nn_module_stack_from_metadata_hook', '<built-in function floordiv>']Jã
+pkg.torch.onnx.fx_nodeq%floordiv_18 : [num_users=6] = call_function[target=operator.floordiv](args = (%sym_size_int_41, 4), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['_empty_nn_module_stack_from_metadata_hook', 'floordiv_18']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+ö
+sym_size_int_40
+val_6floordiv_19node_floordiv_19"DivJã
+	namespace~_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/floordiv_19: <built-in function floordiv>Jo
+pkg.torch.onnx.class_hierarchyM['_empty_nn_module_stack_from_metadata_hook', '<built-in function floordiv>']Jã
+pkg.torch.onnx.fx_nodeq%floordiv_19 : [num_users=5] = call_function[target=operator.floordiv](args = (%sym_size_int_40, 4), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['_empty_nn_module_stack_from_metadata_hook', 'floordiv_19']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+ö
+sym_size_int_41
+val_7floordiv_20node_floordiv_20"DivJã
+	namespace~_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/floordiv_20: <built-in function floordiv>Jo
+pkg.torch.onnx.class_hierarchyM['_empty_nn_module_stack_from_metadata_hook', '<built-in function floordiv>']Jã
+pkg.torch.onnx.fx_nodeq%floordiv_20 : [num_users=6] = call_function[target=operator.floordiv](args = (%sym_size_int_41, 8), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['_empty_nn_module_stack_from_metadata_hook', 'floordiv_20']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+ö
+sym_size_int_40
+val_7floordiv_21node_floordiv_21"DivJã
+	namespace~_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/floordiv_21: <built-in function floordiv>Jo
+pkg.torch.onnx.class_hierarchyM['_empty_nn_module_stack_from_metadata_hook', '<built-in function floordiv>']Jã
+pkg.torch.onnx.fx_nodeq%floordiv_21 : [num_users=5] = call_function[target=operator.floordiv](args = (%sym_size_int_40, 8), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['_empty_nn_module_stack_from_metadata_hook', 'floordiv_21']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+õ
+sym_size_int_41
+val_8floordiv_22node_floordiv_22"DivJã
+	namespace~_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/floordiv_22: <built-in function floordiv>Jo
+pkg.torch.onnx.class_hierarchyM['_empty_nn_module_stack_from_metadata_hook', '<built-in function floordiv>']Jå
+pkg.torch.onnx.fx_noder%floordiv_22 : [num_users=5] = call_function[target=operator.floordiv](args = (%sym_size_int_41, 16), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['_empty_nn_module_stack_from_metadata_hook', 'floordiv_22']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+õ
+sym_size_int_40
+val_8floordiv_23node_floordiv_23"DivJã
+	namespace~_empty_nn_module_stack_from_metadata_hook: _empty_nn_module_stack_from_metadata_hook/floordiv_23: <built-in function floordiv>Jo
+pkg.torch.onnx.class_hierarchyM['_empty_nn_module_stack_from_metadata_hook', '<built-in function floordiv>']Jå
+pkg.torch.onnx.fx_noder%floordiv_23 : [num_users=4] = call_function[target=operator.floordiv](args = (%sym_size_int_40, 16), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['_empty_nn_module_stack_from_metadata_hook', 'floordiv_23']Js
+pkg.torch.onnx.stack_traceUFile "torch/fx/passes/runtime_assert.py", line 24, in insert_deferred_runtime_asserts
+´
+input
+inc.double_conv.0.weight
+inc.double_conv.0.weight_biasgetitemnode_Conv_294"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jô
+	namespaceã: models.fabric_unet.FabricUNet/inc: models.fabric_unet.DoubleConv/inc.double_conv: torch.nn.modules.container.Sequential/inc.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÌ
+pkg.torch.onnx.class_hierarchy ['models.fabric_unet.FabricUNet', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÃ
+pkg.torch.onnx.fx_node±%_native_batch_norm_legit_no_training : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d, %p_inc_double_conv_1_weight, %p_inc_double_conv_1_bias, %b_inc_double_conv_1_running_mean, %b_inc_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})Jy
+pkg.torch.onnx.name_scopes[['', 'inc', 'inc.double_conv', 'inc.double_conv.1', '_native_batch_norm_legit_no_training']Jß
+pkg.torch.onnx.stack_traceàFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 84, in forward
+    x1 = self.inc(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+„
+
+getitemrelu	node_relu"ReluJ”
+	namespace≈: models.fabric_unet.FabricUNet/inc: models.fabric_unet.DoubleConv/inc.double_conv: torch.nn.modules.container.Sequential/inc.double_conv.2: torch.nn.modules.activation.ReLU/relu: aten.relu.defaultJ«
+pkg.torch.onnx.class_hierarchy§['models.fabric_unet.FabricUNet', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']JÑ
+pkg.torch.onnx.fx_nodej%relu : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem,), kwargs = {})JY
+pkg.torch.onnx.name_scopes;['', 'inc', 'inc.double_conv', 'inc.double_conv.2', 'relu']Jæ
+pkg.torch.onnx.stack_traceüFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 84, in forward
+    x1 = self.inc(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+¥
+relu
+inc.double_conv.3.weight
+inc.double_conv.3.weight_bias	getitem_3node_Conv_296"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jõ
+	namespaceç: models.fabric_unet.FabricUNet/inc: models.fabric_unet.DoubleConv/inc.double_conv: torch.nn.modules.container.Sequential/inc.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_1: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÌ
+pkg.torch.onnx.class_hierarchy ['models.fabric_unet.FabricUNet', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']J–
+pkg.torch.onnx.fx_nodeµ%_native_batch_norm_legit_no_training_1 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_1, %p_inc_double_conv_4_weight, %p_inc_double_conv_4_bias, %b_inc_double_conv_4_running_mean, %b_inc_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})J{
+pkg.torch.onnx.name_scopes]['', 'inc', 'inc.double_conv', 'inc.double_conv.4', '_native_batch_norm_legit_no_training_1']Jß
+pkg.torch.onnx.stack_traceàFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 84, in forward
+    x1 = self.inc(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+Ò
+
+	getitem_3relu_1node_relu_1"ReluJ’
+	namespace«: models.fabric_unet.FabricUNet/inc: models.fabric_unet.DoubleConv/inc.double_conv: torch.nn.modules.container.Sequential/inc.double_conv.5: torch.nn.modules.activation.ReLU/relu_1: aten.relu.defaultJ«
+pkg.torch.onnx.class_hierarchy§['models.fabric_unet.FabricUNet', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jà
+pkg.torch.onnx.fx_noden%relu_1 : [num_users=2] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_3,), kwargs = {})J[
+pkg.torch.onnx.name_scopes=['', 'inc', 'inc.double_conv', 'inc.double_conv.5', 'relu_1']Jæ
+pkg.torch.onnx.stack_traceüFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 84, in forward
+    x1 = self.inc(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+¶
+relu_1
+max_pool2dnode_max_pool2d"MaxPool*
+storage_order †*
+	ceil_mode †*
+pads@ @ @ @ †*
+kernel_shape@@†*
+strides@@†*
+	dilations@@†*
+auto_pad"NOTSET†J„
+	namespace’: models.fabric_unet.FabricUNet/down1: models.fabric_unet.Down/down1.maxpool_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.0: torch.nn.modules.pooling.MaxPool2d/max_pool2d: aten.max_pool2d.defaultJ…
+pkg.torch.onnx.class_hierarchy¶['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.MaxPool2d', 'aten.max_pool2d.default']Jü
+pkg.torch.onnx.fx_nodeÑ%max_pool2d : [num_users=1] = call_function[target=torch.ops.aten.max_pool2d.default](args = (%relu_1, [2, 2], [2, 2]), kwargs = {})Jg
+pkg.torch.onnx.name_scopesI['', 'down1', 'down1.maxpool_conv', 'down1.maxpool_conv.0', 'max_pool2d']J©
+pkg.torch.onnx.stack_traceäFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 85, in forward
+    x2 = self.down1(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/pooling.py", line 224, in forward
+    return F.max_pool2d(
+ì
+
+max_pool2d
+)down1.maxpool_conv.1.double_conv.0.weight
+.down1.maxpool_conv.1.double_conv.0.weight_bias	getitem_6node_Conv_298"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jß
+	namespaceô: models.fabric_unet.FabricUNet/down1: models.fabric_unet.Down/down1.maxpool_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.1: models.fabric_unet.DoubleConv/down1.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.1.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_2: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ±
+pkg.torch.onnx.class_hierarchyé['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']Jî
+pkg.torch.onnx.fx_node˘%_native_batch_norm_legit_no_training_2 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_2, %p_down1_maxpool_conv_1_double_conv_1_weight, %p_down1_maxpool_conv_1_double_conv_1_bias, %b_down1_maxpool_conv_1_double_conv_1_running_mean, %b_down1_maxpool_conv_1_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})JŒ
+pkg.torch.onnx.name_scopesØ['', 'down1', 'down1.maxpool_conv', 'down1.maxpool_conv.1', 'down1.maxpool_conv.1.double_conv', 'down1.maxpool_conv.1.double_conv.1', '_native_batch_norm_legit_no_training_2']Jˆ
+pkg.torch.onnx.stack_trace◊File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 85, in forward
+    x2 = self.down1(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+‰
+	getitem_6relu_2node_relu_2"ReluJ·
+	namespace”: models.fabric_unet.FabricUNet/down1: models.fabric_unet.Down/down1.maxpool_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.1: models.fabric_unet.DoubleConv/down1.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.1.double_conv.2: torch.nn.modules.activation.ReLU/relu_2: aten.relu.defaultJã
+pkg.torch.onnx.class_hierarchyË['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jà
+pkg.torch.onnx.fx_noden%relu_2 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_6,), kwargs = {})JÆ
+pkg.torch.onnx.name_scopesè['', 'down1', 'down1.maxpool_conv', 'down1.maxpool_conv.1', 'down1.maxpool_conv.1.double_conv', 'down1.maxpool_conv.1.double_conv.2', 'relu_2']Jç
+pkg.torch.onnx.stack_traceÓFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 85, in forward
+    x2 = self.down1(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+è
+relu_2
+)down1.maxpool_conv.1.double_conv.3.weight
+.down1.maxpool_conv.1.double_conv.3.weight_bias	getitem_9node_Conv_300"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jß
+	namespaceô: models.fabric_unet.FabricUNet/down1: models.fabric_unet.Down/down1.maxpool_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.1: models.fabric_unet.DoubleConv/down1.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.1.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_3: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ±
+pkg.torch.onnx.class_hierarchyé['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']Jî
+pkg.torch.onnx.fx_node˘%_native_batch_norm_legit_no_training_3 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_3, %p_down1_maxpool_conv_1_double_conv_4_weight, %p_down1_maxpool_conv_1_double_conv_4_bias, %b_down1_maxpool_conv_1_double_conv_4_running_mean, %b_down1_maxpool_conv_1_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})JŒ
+pkg.torch.onnx.name_scopesØ['', 'down1', 'down1.maxpool_conv', 'down1.maxpool_conv.1', 'down1.maxpool_conv.1.double_conv', 'down1.maxpool_conv.1.double_conv.4', '_native_batch_norm_legit_no_training_3']Jˆ
+pkg.torch.onnx.stack_trace◊File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 85, in forward
+    x2 = self.down1(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+‰
+	getitem_9relu_3node_relu_3"ReluJ·
+	namespace”: models.fabric_unet.FabricUNet/down1: models.fabric_unet.Down/down1.maxpool_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.1: models.fabric_unet.DoubleConv/down1.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down1.maxpool_conv.1.double_conv.5: torch.nn.modules.activation.ReLU/relu_3: aten.relu.defaultJã
+pkg.torch.onnx.class_hierarchyË['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jà
+pkg.torch.onnx.fx_noden%relu_3 : [num_users=2] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_9,), kwargs = {})JÆ
+pkg.torch.onnx.name_scopesè['', 'down1', 'down1.maxpool_conv', 'down1.maxpool_conv.1', 'down1.maxpool_conv.1.double_conv', 'down1.maxpool_conv.1.double_conv.5', 'relu_3']Jç
+pkg.torch.onnx.stack_traceÓFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 85, in forward
+    x2 = self.down1(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+∞
+relu_3max_pool2d_1node_max_pool2d_1"MaxPool*
+storage_order †*
+	ceil_mode †*
+pads@ @ @ @ †*
+kernel_shape@@†*
+strides@@†*
+	dilations@@†*
+auto_pad"NOTSET†JÂ
+	namespace◊: models.fabric_unet.FabricUNet/down2: models.fabric_unet.Down/down2.maxpool_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.0: torch.nn.modules.pooling.MaxPool2d/max_pool2d_1: aten.max_pool2d.defaultJ…
+pkg.torch.onnx.class_hierarchy¶['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.MaxPool2d', 'aten.max_pool2d.default']J°
+pkg.torch.onnx.fx_nodeÜ%max_pool2d_1 : [num_users=1] = call_function[target=torch.ops.aten.max_pool2d.default](args = (%relu_3, [2, 2], [2, 2]), kwargs = {})Ji
+pkg.torch.onnx.name_scopesK['', 'down2', 'down2.maxpool_conv', 'down2.maxpool_conv.0', 'max_pool2d_1']J©
+pkg.torch.onnx.stack_traceäFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 86, in forward
+    x3 = self.down2(x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/pooling.py", line 224, in forward
+    return F.max_pool2d(
+ñ
+max_pool2d_1
+)down2.maxpool_conv.1.double_conv.0.weight
+.down2.maxpool_conv.1.double_conv.0.weight_bias
+getitem_12node_Conv_302"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jß
+	namespaceô: models.fabric_unet.FabricUNet/down2: models.fabric_unet.Down/down2.maxpool_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.1: models.fabric_unet.DoubleConv/down2.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.1.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_4: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ±
+pkg.torch.onnx.class_hierarchyé['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']Jî
+pkg.torch.onnx.fx_node˘%_native_batch_norm_legit_no_training_4 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_4, %p_down2_maxpool_conv_1_double_conv_1_weight, %p_down2_maxpool_conv_1_double_conv_1_bias, %b_down2_maxpool_conv_1_double_conv_1_running_mean, %b_down2_maxpool_conv_1_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})JŒ
+pkg.torch.onnx.name_scopesØ['', 'down2', 'down2.maxpool_conv', 'down2.maxpool_conv.1', 'down2.maxpool_conv.1.double_conv', 'down2.maxpool_conv.1.double_conv.1', '_native_batch_norm_legit_no_training_4']Jˆ
+pkg.torch.onnx.stack_trace◊File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 86, in forward
+    x3 = self.down2(x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+Ê
+
+getitem_12relu_4node_relu_4"ReluJ·
+	namespace”: models.fabric_unet.FabricUNet/down2: models.fabric_unet.Down/down2.maxpool_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.1: models.fabric_unet.DoubleConv/down2.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.1.double_conv.2: torch.nn.modules.activation.ReLU/relu_4: aten.relu.defaultJã
+pkg.torch.onnx.class_hierarchyË['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_4 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_12,), kwargs = {})JÆ
+pkg.torch.onnx.name_scopesè['', 'down2', 'down2.maxpool_conv', 'down2.maxpool_conv.1', 'down2.maxpool_conv.1.double_conv', 'down2.maxpool_conv.1.double_conv.2', 'relu_4']Jç
+pkg.torch.onnx.stack_traceÓFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 86, in forward
+    x3 = self.down2(x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+ê
+relu_4
+)down2.maxpool_conv.1.double_conv.3.weight
+.down2.maxpool_conv.1.double_conv.3.weight_bias
+getitem_15node_Conv_304"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jß
+	namespaceô: models.fabric_unet.FabricUNet/down2: models.fabric_unet.Down/down2.maxpool_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.1: models.fabric_unet.DoubleConv/down2.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.1.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_5: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ±
+pkg.torch.onnx.class_hierarchyé['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']Jî
+pkg.torch.onnx.fx_node˘%_native_batch_norm_legit_no_training_5 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_5, %p_down2_maxpool_conv_1_double_conv_4_weight, %p_down2_maxpool_conv_1_double_conv_4_bias, %b_down2_maxpool_conv_1_double_conv_4_running_mean, %b_down2_maxpool_conv_1_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})JŒ
+pkg.torch.onnx.name_scopesØ['', 'down2', 'down2.maxpool_conv', 'down2.maxpool_conv.1', 'down2.maxpool_conv.1.double_conv', 'down2.maxpool_conv.1.double_conv.4', '_native_batch_norm_legit_no_training_5']Jˆ
+pkg.torch.onnx.stack_trace◊File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 86, in forward
+    x3 = self.down2(x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+Ê
+
+getitem_15relu_5node_relu_5"ReluJ·
+	namespace”: models.fabric_unet.FabricUNet/down2: models.fabric_unet.Down/down2.maxpool_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.1: models.fabric_unet.DoubleConv/down2.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down2.maxpool_conv.1.double_conv.5: torch.nn.modules.activation.ReLU/relu_5: aten.relu.defaultJã
+pkg.torch.onnx.class_hierarchyË['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_5 : [num_users=2] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_15,), kwargs = {})JÆ
+pkg.torch.onnx.name_scopesè['', 'down2', 'down2.maxpool_conv', 'down2.maxpool_conv.1', 'down2.maxpool_conv.1.double_conv', 'down2.maxpool_conv.1.double_conv.5', 'relu_5']Jç
+pkg.torch.onnx.stack_traceÓFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 86, in forward
+    x3 = self.down2(x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+∞
+relu_5max_pool2d_2node_max_pool2d_2"MaxPool*
+storage_order †*
+	ceil_mode †*
+pads@ @ @ @ †*
+kernel_shape@@†*
+strides@@†*
+	dilations@@†*
+auto_pad"NOTSET†JÂ
+	namespace◊: models.fabric_unet.FabricUNet/down3: models.fabric_unet.Down/down3.maxpool_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.0: torch.nn.modules.pooling.MaxPool2d/max_pool2d_2: aten.max_pool2d.defaultJ…
+pkg.torch.onnx.class_hierarchy¶['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.MaxPool2d', 'aten.max_pool2d.default']J°
+pkg.torch.onnx.fx_nodeÜ%max_pool2d_2 : [num_users=1] = call_function[target=torch.ops.aten.max_pool2d.default](args = (%relu_5, [2, 2], [2, 2]), kwargs = {})Ji
+pkg.torch.onnx.name_scopesK['', 'down3', 'down3.maxpool_conv', 'down3.maxpool_conv.0', 'max_pool2d_2']J©
+pkg.torch.onnx.stack_traceäFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 87, in forward
+    x4 = self.down3(x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/pooling.py", line 224, in forward
+    return F.max_pool2d(
+ñ
+max_pool2d_2
+)down3.maxpool_conv.1.double_conv.0.weight
+.down3.maxpool_conv.1.double_conv.0.weight_bias
+getitem_18node_Conv_306"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jß
+	namespaceô: models.fabric_unet.FabricUNet/down3: models.fabric_unet.Down/down3.maxpool_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.1: models.fabric_unet.DoubleConv/down3.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.1.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_6: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ±
+pkg.torch.onnx.class_hierarchyé['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']Jî
+pkg.torch.onnx.fx_node˘%_native_batch_norm_legit_no_training_6 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_6, %p_down3_maxpool_conv_1_double_conv_1_weight, %p_down3_maxpool_conv_1_double_conv_1_bias, %b_down3_maxpool_conv_1_double_conv_1_running_mean, %b_down3_maxpool_conv_1_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})JŒ
+pkg.torch.onnx.name_scopesØ['', 'down3', 'down3.maxpool_conv', 'down3.maxpool_conv.1', 'down3.maxpool_conv.1.double_conv', 'down3.maxpool_conv.1.double_conv.1', '_native_batch_norm_legit_no_training_6']Jˆ
+pkg.torch.onnx.stack_trace◊File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 87, in forward
+    x4 = self.down3(x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+Ê
+
+getitem_18relu_6node_relu_6"ReluJ·
+	namespace”: models.fabric_unet.FabricUNet/down3: models.fabric_unet.Down/down3.maxpool_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.1: models.fabric_unet.DoubleConv/down3.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.1.double_conv.2: torch.nn.modules.activation.ReLU/relu_6: aten.relu.defaultJã
+pkg.torch.onnx.class_hierarchyË['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_6 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_18,), kwargs = {})JÆ
+pkg.torch.onnx.name_scopesè['', 'down3', 'down3.maxpool_conv', 'down3.maxpool_conv.1', 'down3.maxpool_conv.1.double_conv', 'down3.maxpool_conv.1.double_conv.2', 'relu_6']Jç
+pkg.torch.onnx.stack_traceÓFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 87, in forward
+    x4 = self.down3(x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+ê
+relu_6
+)down3.maxpool_conv.1.double_conv.3.weight
+.down3.maxpool_conv.1.double_conv.3.weight_bias
+getitem_21node_Conv_308"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jß
+	namespaceô: models.fabric_unet.FabricUNet/down3: models.fabric_unet.Down/down3.maxpool_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.1: models.fabric_unet.DoubleConv/down3.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.1.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_7: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ±
+pkg.torch.onnx.class_hierarchyé['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']Jî
+pkg.torch.onnx.fx_node˘%_native_batch_norm_legit_no_training_7 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_7, %p_down3_maxpool_conv_1_double_conv_4_weight, %p_down3_maxpool_conv_1_double_conv_4_bias, %b_down3_maxpool_conv_1_double_conv_4_running_mean, %b_down3_maxpool_conv_1_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})JŒ
+pkg.torch.onnx.name_scopesØ['', 'down3', 'down3.maxpool_conv', 'down3.maxpool_conv.1', 'down3.maxpool_conv.1.double_conv', 'down3.maxpool_conv.1.double_conv.4', '_native_batch_norm_legit_no_training_7']Jˆ
+pkg.torch.onnx.stack_trace◊File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 87, in forward
+    x4 = self.down3(x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+Ê
+
+getitem_21relu_7node_relu_7"ReluJ·
+	namespace”: models.fabric_unet.FabricUNet/down3: models.fabric_unet.Down/down3.maxpool_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.1: models.fabric_unet.DoubleConv/down3.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down3.maxpool_conv.1.double_conv.5: torch.nn.modules.activation.ReLU/relu_7: aten.relu.defaultJã
+pkg.torch.onnx.class_hierarchyË['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_7 : [num_users=2] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_21,), kwargs = {})JÆ
+pkg.torch.onnx.name_scopesè['', 'down3', 'down3.maxpool_conv', 'down3.maxpool_conv.1', 'down3.maxpool_conv.1.double_conv', 'down3.maxpool_conv.1.double_conv.5', 'relu_7']Jç
+pkg.torch.onnx.stack_traceÓFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 87, in forward
+    x4 = self.down3(x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+∞
+relu_7max_pool2d_3node_max_pool2d_3"MaxPool*
+storage_order †*
+	ceil_mode †*
+pads@ @ @ @ †*
+kernel_shape@@†*
+strides@@†*
+	dilations@@†*
+auto_pad"NOTSET†JÂ
+	namespace◊: models.fabric_unet.FabricUNet/down4: models.fabric_unet.Down/down4.maxpool_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.0: torch.nn.modules.pooling.MaxPool2d/max_pool2d_3: aten.max_pool2d.defaultJ…
+pkg.torch.onnx.class_hierarchy¶['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.MaxPool2d', 'aten.max_pool2d.default']J°
+pkg.torch.onnx.fx_nodeÜ%max_pool2d_3 : [num_users=1] = call_function[target=torch.ops.aten.max_pool2d.default](args = (%relu_7, [2, 2], [2, 2]), kwargs = {})Ji
+pkg.torch.onnx.name_scopesK['', 'down4', 'down4.maxpool_conv', 'down4.maxpool_conv.0', 'max_pool2d_3']J©
+pkg.torch.onnx.stack_traceäFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 88, in forward
+    x5 = self.down4(x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/pooling.py", line 224, in forward
+    return F.max_pool2d(
+ñ
+max_pool2d_3
+)down4.maxpool_conv.1.double_conv.0.weight
+.down4.maxpool_conv.1.double_conv.0.weight_bias
+getitem_24node_Conv_310"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jß
+	namespaceô: models.fabric_unet.FabricUNet/down4: models.fabric_unet.Down/down4.maxpool_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.1: models.fabric_unet.DoubleConv/down4.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.1.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_8: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ±
+pkg.torch.onnx.class_hierarchyé['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']Jî
+pkg.torch.onnx.fx_node˘%_native_batch_norm_legit_no_training_8 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_8, %p_down4_maxpool_conv_1_double_conv_1_weight, %p_down4_maxpool_conv_1_double_conv_1_bias, %b_down4_maxpool_conv_1_double_conv_1_running_mean, %b_down4_maxpool_conv_1_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})JŒ
+pkg.torch.onnx.name_scopesØ['', 'down4', 'down4.maxpool_conv', 'down4.maxpool_conv.1', 'down4.maxpool_conv.1.double_conv', 'down4.maxpool_conv.1.double_conv.1', '_native_batch_norm_legit_no_training_8']Jˆ
+pkg.torch.onnx.stack_trace◊File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 88, in forward
+    x5 = self.down4(x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+Ê
+
+getitem_24relu_8node_relu_8"ReluJ·
+	namespace”: models.fabric_unet.FabricUNet/down4: models.fabric_unet.Down/down4.maxpool_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.1: models.fabric_unet.DoubleConv/down4.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.1.double_conv.2: torch.nn.modules.activation.ReLU/relu_8: aten.relu.defaultJã
+pkg.torch.onnx.class_hierarchyË['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_8 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_24,), kwargs = {})JÆ
+pkg.torch.onnx.name_scopesè['', 'down4', 'down4.maxpool_conv', 'down4.maxpool_conv.1', 'down4.maxpool_conv.1.double_conv', 'down4.maxpool_conv.1.double_conv.2', 'relu_8']Jç
+pkg.torch.onnx.stack_traceÓFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 88, in forward
+    x5 = self.down4(x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+ê
+relu_8
+)down4.maxpool_conv.1.double_conv.3.weight
+.down4.maxpool_conv.1.double_conv.3.weight_bias
+getitem_27node_Conv_312"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jß
+	namespaceô: models.fabric_unet.FabricUNet/down4: models.fabric_unet.Down/down4.maxpool_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.1: models.fabric_unet.DoubleConv/down4.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.1.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_9: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJ±
+pkg.torch.onnx.class_hierarchyé['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']Jî
+pkg.torch.onnx.fx_node˘%_native_batch_norm_legit_no_training_9 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_9, %p_down4_maxpool_conv_1_double_conv_4_weight, %p_down4_maxpool_conv_1_double_conv_4_bias, %b_down4_maxpool_conv_1_double_conv_4_running_mean, %b_down4_maxpool_conv_1_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})JŒ
+pkg.torch.onnx.name_scopesØ['', 'down4', 'down4.maxpool_conv', 'down4.maxpool_conv.1', 'down4.maxpool_conv.1.double_conv', 'down4.maxpool_conv.1.double_conv.4', '_native_batch_norm_legit_no_training_9']Jˆ
+pkg.torch.onnx.stack_trace◊File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 88, in forward
+    x5 = self.down4(x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+Ê
+
+getitem_27relu_9node_relu_9"ReluJ·
+	namespace”: models.fabric_unet.FabricUNet/down4: models.fabric_unet.Down/down4.maxpool_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.1: models.fabric_unet.DoubleConv/down4.maxpool_conv.1.double_conv: torch.nn.modules.container.Sequential/down4.maxpool_conv.1.double_conv.5: torch.nn.modules.activation.ReLU/relu_9: aten.relu.defaultJã
+pkg.torch.onnx.class_hierarchyË['models.fabric_unet.FabricUNet', 'models.fabric_unet.Down', 'torch.nn.modules.container.Sequential', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jâ
+pkg.torch.onnx.fx_nodeo%relu_9 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_27,), kwargs = {})JÆ
+pkg.torch.onnx.name_scopesè['', 'down4', 'down4.maxpool_conv', 'down4.maxpool_conv.1', 'down4.maxpool_conv.1.double_conv', 'down4.maxpool_conv.1.double_conv.5', 'relu_9']Jç
+pkg.torch.onnx.stack_traceÓFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 88, in forward
+    x5 = self.down4(x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 40, in forward
+    return self.maxpool_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+¯
+
+relu_9
+ 
+val_126upsample_bilinear2dnode_upsample_bilinear2d"Resize*
+extrapolation_value    †*&
+keep_aspect_ratio_policy"stretch†*
+	antialias †*
+nearest_mode"floor†*
+exclude_outside †*
+cubic_coeff_a  @ø†*2
+coordinate_transformation_mode"align_corners†*
+mode"linear†Jß
+	namespaceô: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/up1.up: torch.nn.modules.upsampling.Upsample/upsample_bilinear2d: aten.upsample_bilinear2d.vecJ•
+pkg.torch.onnx.class_hierarchyÇ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'torch.nn.modules.upsampling.Upsample', 'aten.upsample_bilinear2d.vec']Jµ
+pkg.torch.onnx.fx_nodeö%upsample_bilinear2d : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%relu_9, None, True, [2.0, 2.0]), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'up1', 'up1.up', 'upsample_bilinear2d']JÍ
+pkg.torch.onnx.stack_traceÀFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 50, in forward
+    x1 = self.up(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/upsampling.py", line 174, in forward
+    return F.interpolate(
+ä
+val_4
+floordiv_23mul_79node_mul_79"MulJg
+	namespaceZ: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/mul_79: <built-in function mul>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function mul>']J}
+pkg.torch.onnx.fx_nodec%mul_79 : [num_users=1] = call_function[target=operator.mul](args = (2, %floordiv_23), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up1', 'mul_79']J√
+pkg.torch.onnx.stack_trace§File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 52, in forward
+    diffY = x2.size()[2] - x1.size()[2]
+í
+floordiv_21
+mul_79sub_30node_sub_30"SubJg
+	namespaceZ: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/sub_30: <built-in function sub>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function sub>']JÉ
+pkg.torch.onnx.fx_nodei%sub_30 : [num_users=1] = call_function[target=operator.sub](args = (%floordiv_21, %mul_79), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up1', 'sub_30']J√
+pkg.torch.onnx.stack_trace§File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 52, in forward
+    diffY = x2.size()[2] - x1.size()[2]
+ä
+val_4
+floordiv_22mul_80node_mul_80"MulJg
+	namespaceZ: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/mul_80: <built-in function mul>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function mul>']J}
+pkg.torch.onnx.fx_nodec%mul_80 : [num_users=1] = call_function[target=operator.mul](args = (2, %floordiv_22), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up1', 'mul_80']J√
+pkg.torch.onnx.stack_trace§File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 53, in forward
+    diffX = x2.size()[3] - x1.size()[3]
+í
+floordiv_20
+mul_80sub_31node_sub_31"SubJg
+	namespaceZ: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/sub_31: <built-in function sub>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function sub>']JÉ
+pkg.torch.onnx.fx_nodei%sub_31 : [num_users=1] = call_function[target=operator.sub](args = (%floordiv_20, %mul_80), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up1', 'sub_31']J√
+pkg.torch.onnx.stack_trace§File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 53, in forward
+    diffX = x2.size()[3] - x1.size()[3]
+Ë
+sub_31
+val_128val_129node_Reshape_125"Reshape*
+	allowzero †J]
+	namespaceP: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/pad: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J®
+pkg.torch.onnx.fx_nodeç%pad : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d, [0, %sub_31, 0, %sub_30]), kwargs = {})J0
+pkg.torch.onnx.name_scopes['', 'up1', 'pad']J
+pkg.torch.onnx.stack_trace—File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+Ë
+sub_30
+val_128val_131node_Reshape_127"Reshape*
+	allowzero †J]
+	namespaceP: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/pad: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J®
+pkg.torch.onnx.fx_nodeç%pad : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d, [0, %sub_31, 0, %sub_30]), kwargs = {})J0
+pkg.torch.onnx.name_scopes['', 'up1', 'pad']J
+pkg.torch.onnx.stack_trace—File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ò
+val_127
+val_127
+val_127
+val_127
+val_127
+val_127
+val_131
+val_129val_133node_Concat_129"Concat*
+axis †J]
+	namespaceP: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/pad: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J®
+pkg.torch.onnx.fx_nodeç%pad : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d, [0, %sub_31, 0, %sub_30]), kwargs = {})J0
+pkg.torch.onnx.name_scopes['', 'up1', 'pad']J
+pkg.torch.onnx.stack_trace—File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+Ë
+upsample_bilinear2d
+val_133padnode_pad"Pad*
+mode"constant†J]
+	namespaceP: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/pad: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J®
+pkg.torch.onnx.fx_nodeç%pad : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d, [0, %sub_31, 0, %sub_30]), kwargs = {})J0
+pkg.torch.onnx.name_scopes['', 'up1', 'pad']J
+pkg.torch.onnx.stack_trace—File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+É
+relu_7
+padcatnode_cat"Concat*
+axis†J]
+	namespaceP: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/cat: aten.cat.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.cat.default']Jã
+pkg.torch.onnx.fx_nodeq%cat : [num_users=1] = call_function[target=torch.ops.aten.cat.default](args = ([%relu_7, %pad], 1), kwargs = {})J0
+pkg.torch.onnx.name_scopes['', 'up1', 'cat']Jæ
+pkg.torch.onnx.stack_traceüFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 55, in forward
+    x = torch.cat([x2, x1], dim=1)
+ø
+cat
+up1.conv.double_conv.0.weight
+"up1.conv.double_conv.0.weight_bias
+getitem_30node_Conv_314"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†J∆
+	namespace∏: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/up1.conv: models.fabric_unet.DoubleConv/up1.conv.double_conv: torch.nn.modules.container.Sequential/up1.conv.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_10: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÜ
+pkg.torch.onnx.class_hierarchy„['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÊ
+pkg.torch.onnx.fx_nodeÀ%_native_batch_norm_legit_no_training_10 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_10, %p_up1_conv_double_conv_1_weight, %p_up1_conv_double_conv_1_bias, %b_up1_conv_double_conv_1_running_mean, %b_up1_conv_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})Jí
+pkg.torch.onnx.name_scopest['', 'up1', 'up1.conv', 'up1.conv.double_conv', 'up1.conv.double_conv.1', '_native_batch_norm_legit_no_training_10']J∂
+pkg.torch.onnx.stack_traceóFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+‡
+
+getitem_30relu_10node_relu_10"ReluJÄ
+	namespaceÚ: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/up1.conv: models.fabric_unet.DoubleConv/up1.conv.double_conv: torch.nn.modules.container.Sequential/up1.conv.double_conv.2: torch.nn.modules.activation.ReLU/relu_10: aten.relu.defaultJ‡
+pkg.torch.onnx.class_hierarchyΩ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jä
+pkg.torch.onnx.fx_nodep%relu_10 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_30,), kwargs = {})Jr
+pkg.torch.onnx.name_scopesT['', 'up1', 'up1.conv', 'up1.conv.double_conv', 'up1.conv.double_conv.2', 'relu_10']JÕ
+pkg.torch.onnx.stack_traceÆFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+√
+relu_10
+up1.conv.double_conv.3.weight
+"up1.conv.double_conv.3.weight_bias
+getitem_33node_Conv_316"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†J∆
+	namespace∏: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/up1.conv: models.fabric_unet.DoubleConv/up1.conv.double_conv: torch.nn.modules.container.Sequential/up1.conv.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_11: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÜ
+pkg.torch.onnx.class_hierarchy„['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÊ
+pkg.torch.onnx.fx_nodeÀ%_native_batch_norm_legit_no_training_11 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_11, %p_up1_conv_double_conv_4_weight, %p_up1_conv_double_conv_4_bias, %b_up1_conv_double_conv_4_running_mean, %b_up1_conv_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})Jí
+pkg.torch.onnx.name_scopest['', 'up1', 'up1.conv', 'up1.conv.double_conv', 'up1.conv.double_conv.4', '_native_batch_norm_legit_no_training_11']J∂
+pkg.torch.onnx.stack_traceóFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+‡
+
+getitem_33relu_11node_relu_11"ReluJÄ
+	namespaceÚ: models.fabric_unet.FabricUNet/up1: models.fabric_unet.Up/up1.conv: models.fabric_unet.DoubleConv/up1.conv.double_conv: torch.nn.modules.container.Sequential/up1.conv.double_conv.5: torch.nn.modules.activation.ReLU/relu_11: aten.relu.defaultJ‡
+pkg.torch.onnx.class_hierarchyΩ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jä
+pkg.torch.onnx.fx_nodep%relu_11 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_33,), kwargs = {})Jr
+pkg.torch.onnx.name_scopesT['', 'up1', 'up1.conv', 'up1.conv.double_conv', 'up1.conv.double_conv.5', 'relu_11']JÕ
+pkg.torch.onnx.stack_traceÆFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 90, in forward
+    x = self.up1(x5, x4)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+É
+relu_11
+ 
+val_126upsample_bilinear2d_1node_upsample_bilinear2d_1"Resize*
+extrapolation_value    †*&
+keep_aspect_ratio_policy"stretch†*
+	antialias †*
+nearest_mode"floor†*
+exclude_outside †*
+cubic_coeff_a  @ø†*2
+coordinate_transformation_mode"align_corners†*
+mode"linear†J©
+	namespaceõ: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/up2.up: torch.nn.modules.upsampling.Upsample/upsample_bilinear2d_1: aten.upsample_bilinear2d.vecJ•
+pkg.torch.onnx.class_hierarchyÇ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'torch.nn.modules.upsampling.Upsample', 'aten.upsample_bilinear2d.vec']J∏
+pkg.torch.onnx.fx_nodeù%upsample_bilinear2d_1 : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%relu_11, None, True, [2.0, 2.0]), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'up2', 'up2.up', 'upsample_bilinear2d_1']JÈ
+pkg.torch.onnx.stack_trace File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 50, in forward
+    x1 = self.up(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/upsampling.py", line 174, in forward
+    return F.interpolate(
+â
+val_4
+floordiv_21mul_95node_mul_95"MulJg
+	namespaceZ: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/mul_95: <built-in function mul>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function mul>']J}
+pkg.torch.onnx.fx_nodec%mul_95 : [num_users=1] = call_function[target=operator.mul](args = (2, %floordiv_21), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up2', 'mul_95']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 52, in forward
+    diffY = x2.size()[2] - x1.size()[2]
+ë
+floordiv_19
+mul_95sub_38node_sub_38"SubJg
+	namespaceZ: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/sub_38: <built-in function sub>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function sub>']JÉ
+pkg.torch.onnx.fx_nodei%sub_38 : [num_users=1] = call_function[target=operator.sub](args = (%floordiv_19, %mul_95), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up2', 'sub_38']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 52, in forward
+    diffY = x2.size()[2] - x1.size()[2]
+â
+val_4
+floordiv_20mul_96node_mul_96"MulJg
+	namespaceZ: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/mul_96: <built-in function mul>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function mul>']J}
+pkg.torch.onnx.fx_nodec%mul_96 : [num_users=1] = call_function[target=operator.mul](args = (2, %floordiv_20), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up2', 'mul_96']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 53, in forward
+    diffX = x2.size()[3] - x1.size()[3]
+ë
+floordiv_18
+mul_96sub_39node_sub_39"SubJg
+	namespaceZ: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/sub_39: <built-in function sub>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function sub>']JÉ
+pkg.torch.onnx.fx_nodei%sub_39 : [num_users=1] = call_function[target=operator.sub](args = (%floordiv_18, %mul_96), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up2', 'sub_39']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 53, in forward
+    diffX = x2.size()[3] - x1.size()[3]
+Ô
+sub_39
+val_128val_158node_Reshape_154"Reshape*
+	allowzero †J_
+	namespaceR: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/pad_1: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_1 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_1, [0, %sub_39, 0, %sub_38]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up2', 'pad_1']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+Ô
+sub_38
+val_128val_160node_Reshape_156"Reshape*
+	allowzero †J_
+	namespaceR: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/pad_1: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_1 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_1, [0, %sub_39, 0, %sub_38]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up2', 'pad_1']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ü
+val_127
+val_127
+val_127
+val_127
+val_127
+val_127
+val_160
+val_158val_162node_Concat_158"Concat*
+axis †J_
+	namespaceR: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/pad_1: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_1 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_1, [0, %sub_39, 0, %sub_38]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up2', 'pad_1']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ı
+upsample_bilinear2d_1
+val_162pad_1
+node_pad_1"Pad*
+mode"constant†J_
+	namespaceR: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/pad_1: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_1 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_1, [0, %sub_39, 0, %sub_38]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up2', 'pad_1']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ê
+relu_5
+pad_1cat_1
+node_cat_1"Concat*
+axis†J_
+	namespaceR: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/cat_1: aten.cat.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.cat.default']Jè
+pkg.torch.onnx.fx_nodeu%cat_1 : [num_users=1] = call_function[target=torch.ops.aten.cat.default](args = ([%relu_5, %pad_1], 1), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up2', 'cat_1']JΩ
+pkg.torch.onnx.stack_traceûFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 55, in forward
+    x = torch.cat([x2, x1], dim=1)
+¿
+cat_1
+up2.conv.double_conv.0.weight
+"up2.conv.double_conv.0.weight_bias
+getitem_36node_Conv_318"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†J∆
+	namespace∏: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/up2.conv: models.fabric_unet.DoubleConv/up2.conv.double_conv: torch.nn.modules.container.Sequential/up2.conv.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_12: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÜ
+pkg.torch.onnx.class_hierarchy„['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÊ
+pkg.torch.onnx.fx_nodeÀ%_native_batch_norm_legit_no_training_12 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_12, %p_up2_conv_double_conv_1_weight, %p_up2_conv_double_conv_1_bias, %b_up2_conv_double_conv_1_running_mean, %b_up2_conv_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})Jí
+pkg.torch.onnx.name_scopest['', 'up2', 'up2.conv', 'up2.conv.double_conv', 'up2.conv.double_conv.1', '_native_batch_norm_legit_no_training_12']Jµ
+pkg.torch.onnx.stack_traceñFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+ﬂ
+
+getitem_36relu_12node_relu_12"ReluJÄ
+	namespaceÚ: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/up2.conv: models.fabric_unet.DoubleConv/up2.conv.double_conv: torch.nn.modules.container.Sequential/up2.conv.double_conv.2: torch.nn.modules.activation.ReLU/relu_12: aten.relu.defaultJ‡
+pkg.torch.onnx.class_hierarchyΩ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jä
+pkg.torch.onnx.fx_nodep%relu_12 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_36,), kwargs = {})Jr
+pkg.torch.onnx.name_scopesT['', 'up2', 'up2.conv', 'up2.conv.double_conv', 'up2.conv.double_conv.2', 'relu_12']JÃ
+pkg.torch.onnx.stack_trace≠File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+¬
+relu_12
+up2.conv.double_conv.3.weight
+"up2.conv.double_conv.3.weight_bias
+getitem_39node_Conv_320"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†J∆
+	namespace∏: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/up2.conv: models.fabric_unet.DoubleConv/up2.conv.double_conv: torch.nn.modules.container.Sequential/up2.conv.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_13: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÜ
+pkg.torch.onnx.class_hierarchy„['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÊ
+pkg.torch.onnx.fx_nodeÀ%_native_batch_norm_legit_no_training_13 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_13, %p_up2_conv_double_conv_4_weight, %p_up2_conv_double_conv_4_bias, %b_up2_conv_double_conv_4_running_mean, %b_up2_conv_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})Jí
+pkg.torch.onnx.name_scopest['', 'up2', 'up2.conv', 'up2.conv.double_conv', 'up2.conv.double_conv.4', '_native_batch_norm_legit_no_training_13']Jµ
+pkg.torch.onnx.stack_traceñFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+ﬂ
+
+getitem_39relu_13node_relu_13"ReluJÄ
+	namespaceÚ: models.fabric_unet.FabricUNet/up2: models.fabric_unet.Up/up2.conv: models.fabric_unet.DoubleConv/up2.conv.double_conv: torch.nn.modules.container.Sequential/up2.conv.double_conv.5: torch.nn.modules.activation.ReLU/relu_13: aten.relu.defaultJ‡
+pkg.torch.onnx.class_hierarchyΩ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jä
+pkg.torch.onnx.fx_nodep%relu_13 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_39,), kwargs = {})Jr
+pkg.torch.onnx.name_scopesT['', 'up2', 'up2.conv', 'up2.conv.double_conv', 'up2.conv.double_conv.5', 'relu_13']JÃ
+pkg.torch.onnx.stack_trace≠File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 91, in forward
+    x = self.up2(x, x3)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+É
+relu_13
+ 
+val_126upsample_bilinear2d_2node_upsample_bilinear2d_2"Resize*
+extrapolation_value    †*&
+keep_aspect_ratio_policy"stretch†*
+	antialias †*
+nearest_mode"floor†*
+exclude_outside †*
+cubic_coeff_a  @ø†*2
+coordinate_transformation_mode"align_corners†*
+mode"linear†J©
+	namespaceõ: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/up3.up: torch.nn.modules.upsampling.Upsample/upsample_bilinear2d_2: aten.upsample_bilinear2d.vecJ•
+pkg.torch.onnx.class_hierarchyÇ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'torch.nn.modules.upsampling.Upsample', 'aten.upsample_bilinear2d.vec']J∏
+pkg.torch.onnx.fx_nodeù%upsample_bilinear2d_2 : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%relu_13, None, True, [2.0, 2.0]), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'up3', 'up3.up', 'upsample_bilinear2d_2']JÈ
+pkg.torch.onnx.stack_trace File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 50, in forward
+    x1 = self.up(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/upsampling.py", line 174, in forward
+    return F.interpolate(
+é
+val_4
+floordiv_19mul_111node_mul_111"MulJh
+	namespace[: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/mul_111: <built-in function mul>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function mul>']J~
+pkg.torch.onnx.fx_noded%mul_111 : [num_users=1] = call_function[target=operator.mul](args = (2, %floordiv_19), kwargs = {})J4
+pkg.torch.onnx.name_scopes['', 'up3', 'mul_111']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 52, in forward
+    diffY = x2.size()[2] - x1.size()[2]
+ì
+floordiv_17
+mul_111sub_46node_sub_46"SubJg
+	namespaceZ: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/sub_46: <built-in function sub>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function sub>']JÑ
+pkg.torch.onnx.fx_nodej%sub_46 : [num_users=1] = call_function[target=operator.sub](args = (%floordiv_17, %mul_111), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up3', 'sub_46']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 52, in forward
+    diffY = x2.size()[2] - x1.size()[2]
+é
+val_4
+floordiv_18mul_112node_mul_112"MulJh
+	namespace[: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/mul_112: <built-in function mul>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function mul>']J~
+pkg.torch.onnx.fx_noded%mul_112 : [num_users=1] = call_function[target=operator.mul](args = (2, %floordiv_18), kwargs = {})J4
+pkg.torch.onnx.name_scopes['', 'up3', 'mul_112']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 53, in forward
+    diffX = x2.size()[3] - x1.size()[3]
+ì
+floordiv_16
+mul_112sub_47node_sub_47"SubJg
+	namespaceZ: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/sub_47: <built-in function sub>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function sub>']JÑ
+pkg.torch.onnx.fx_nodej%sub_47 : [num_users=1] = call_function[target=operator.sub](args = (%floordiv_16, %mul_112), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up3', 'sub_47']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 53, in forward
+    diffX = x2.size()[3] - x1.size()[3]
+Ô
+sub_47
+val_128val_187node_Reshape_183"Reshape*
+	allowzero †J_
+	namespaceR: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/pad_2: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_2 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_2, [0, %sub_47, 0, %sub_46]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up3', 'pad_2']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+Ô
+sub_46
+val_128val_189node_Reshape_185"Reshape*
+	allowzero †J_
+	namespaceR: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/pad_2: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_2 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_2, [0, %sub_47, 0, %sub_46]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up3', 'pad_2']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ü
+val_127
+val_127
+val_127
+val_127
+val_127
+val_127
+val_189
+val_187val_191node_Concat_187"Concat*
+axis †J_
+	namespaceR: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/pad_2: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_2 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_2, [0, %sub_47, 0, %sub_46]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up3', 'pad_2']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ı
+upsample_bilinear2d_2
+val_191pad_2
+node_pad_2"Pad*
+mode"constant†J_
+	namespaceR: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/pad_2: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_2 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_2, [0, %sub_47, 0, %sub_46]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up3', 'pad_2']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ê
+relu_3
+pad_2cat_2
+node_cat_2"Concat*
+axis†J_
+	namespaceR: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/cat_2: aten.cat.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.cat.default']Jè
+pkg.torch.onnx.fx_nodeu%cat_2 : [num_users=1] = call_function[target=torch.ops.aten.cat.default](args = ([%relu_3, %pad_2], 1), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up3', 'cat_2']JΩ
+pkg.torch.onnx.stack_traceûFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 55, in forward
+    x = torch.cat([x2, x1], dim=1)
+¿
+cat_2
+up3.conv.double_conv.0.weight
+"up3.conv.double_conv.0.weight_bias
+getitem_42node_Conv_322"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†J∆
+	namespace∏: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/up3.conv: models.fabric_unet.DoubleConv/up3.conv.double_conv: torch.nn.modules.container.Sequential/up3.conv.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_14: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÜ
+pkg.torch.onnx.class_hierarchy„['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÊ
+pkg.torch.onnx.fx_nodeÀ%_native_batch_norm_legit_no_training_14 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_14, %p_up3_conv_double_conv_1_weight, %p_up3_conv_double_conv_1_bias, %b_up3_conv_double_conv_1_running_mean, %b_up3_conv_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})Jí
+pkg.torch.onnx.name_scopest['', 'up3', 'up3.conv', 'up3.conv.double_conv', 'up3.conv.double_conv.1', '_native_batch_norm_legit_no_training_14']Jµ
+pkg.torch.onnx.stack_traceñFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+ﬂ
+
+getitem_42relu_14node_relu_14"ReluJÄ
+	namespaceÚ: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/up3.conv: models.fabric_unet.DoubleConv/up3.conv.double_conv: torch.nn.modules.container.Sequential/up3.conv.double_conv.2: torch.nn.modules.activation.ReLU/relu_14: aten.relu.defaultJ‡
+pkg.torch.onnx.class_hierarchyΩ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jä
+pkg.torch.onnx.fx_nodep%relu_14 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_42,), kwargs = {})Jr
+pkg.torch.onnx.name_scopesT['', 'up3', 'up3.conv', 'up3.conv.double_conv', 'up3.conv.double_conv.2', 'relu_14']JÃ
+pkg.torch.onnx.stack_trace≠File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+¬
+relu_14
+up3.conv.double_conv.3.weight
+"up3.conv.double_conv.3.weight_bias
+getitem_45node_Conv_324"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†J∆
+	namespace∏: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/up3.conv: models.fabric_unet.DoubleConv/up3.conv.double_conv: torch.nn.modules.container.Sequential/up3.conv.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_15: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÜ
+pkg.torch.onnx.class_hierarchy„['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÊ
+pkg.torch.onnx.fx_nodeÀ%_native_batch_norm_legit_no_training_15 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_15, %p_up3_conv_double_conv_4_weight, %p_up3_conv_double_conv_4_bias, %b_up3_conv_double_conv_4_running_mean, %b_up3_conv_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})Jí
+pkg.torch.onnx.name_scopest['', 'up3', 'up3.conv', 'up3.conv.double_conv', 'up3.conv.double_conv.4', '_native_batch_norm_legit_no_training_15']Jµ
+pkg.torch.onnx.stack_traceñFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+ﬂ
+
+getitem_45relu_15node_relu_15"ReluJÄ
+	namespaceÚ: models.fabric_unet.FabricUNet/up3: models.fabric_unet.Up/up3.conv: models.fabric_unet.DoubleConv/up3.conv.double_conv: torch.nn.modules.container.Sequential/up3.conv.double_conv.5: torch.nn.modules.activation.ReLU/relu_15: aten.relu.defaultJ‡
+pkg.torch.onnx.class_hierarchyΩ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jä
+pkg.torch.onnx.fx_nodep%relu_15 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_45,), kwargs = {})Jr
+pkg.torch.onnx.name_scopesT['', 'up3', 'up3.conv', 'up3.conv.double_conv', 'up3.conv.double_conv.5', 'relu_15']JÃ
+pkg.torch.onnx.stack_trace≠File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 92, in forward
+    x = self.up3(x, x2)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+É
+relu_15
+ 
+val_126upsample_bilinear2d_3node_upsample_bilinear2d_3"Resize*
+extrapolation_value    †*&
+keep_aspect_ratio_policy"stretch†*
+	antialias †*
+nearest_mode"floor†*
+exclude_outside †*
+cubic_coeff_a  @ø†*2
+coordinate_transformation_mode"align_corners†*
+mode"linear†J©
+	namespaceõ: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/up4.up: torch.nn.modules.upsampling.Upsample/upsample_bilinear2d_3: aten.upsample_bilinear2d.vecJ•
+pkg.torch.onnx.class_hierarchyÇ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'torch.nn.modules.upsampling.Upsample', 'aten.upsample_bilinear2d.vec']J∏
+pkg.torch.onnx.fx_nodeù%upsample_bilinear2d_3 : [num_users=1] = call_function[target=torch.ops.aten.upsample_bilinear2d.vec](args = (%relu_15, None, True, [2.0, 2.0]), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'up4', 'up4.up', 'upsample_bilinear2d_3']JÈ
+pkg.torch.onnx.stack_trace File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 50, in forward
+    x1 = self.up(x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/upsampling.py", line 174, in forward
+    return F.interpolate(
+é
+val_4
+floordiv_17mul_127node_mul_127"MulJh
+	namespace[: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/mul_127: <built-in function mul>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function mul>']J~
+pkg.torch.onnx.fx_noded%mul_127 : [num_users=1] = call_function[target=operator.mul](args = (2, %floordiv_17), kwargs = {})J4
+pkg.torch.onnx.name_scopes['', 'up4', 'mul_127']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 52, in forward
+    diffY = x2.size()[2] - x1.size()[2]
+õ
+sym_size_int_40
+mul_127sub_54node_sub_54"SubJg
+	namespaceZ: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/sub_54: <built-in function sub>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function sub>']Jà
+pkg.torch.onnx.fx_noden%sub_54 : [num_users=1] = call_function[target=operator.sub](args = (%sym_size_int_40, %mul_127), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up4', 'sub_54']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 52, in forward
+    diffY = x2.size()[2] - x1.size()[2]
+é
+val_4
+floordiv_16mul_128node_mul_128"MulJh
+	namespace[: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/mul_128: <built-in function mul>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function mul>']J~
+pkg.torch.onnx.fx_noded%mul_128 : [num_users=1] = call_function[target=operator.mul](args = (2, %floordiv_16), kwargs = {})J4
+pkg.torch.onnx.name_scopes['', 'up4', 'mul_128']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 53, in forward
+    diffX = x2.size()[3] - x1.size()[3]
+õ
+sym_size_int_41
+mul_128sub_55node_sub_55"SubJg
+	namespaceZ: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/sub_55: <built-in function sub>Jw
+pkg.torch.onnx.class_hierarchyU['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', '<built-in function sub>']Jà
+pkg.torch.onnx.fx_noden%sub_55 : [num_users=1] = call_function[target=operator.sub](args = (%sym_size_int_41, %mul_128), kwargs = {})J3
+pkg.torch.onnx.name_scopes['', 'up4', 'sub_55']J¬
+pkg.torch.onnx.stack_trace£File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 53, in forward
+    diffX = x2.size()[3] - x1.size()[3]
+Ô
+sub_55
+val_128val_216node_Reshape_212"Reshape*
+	allowzero †J_
+	namespaceR: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/pad_3: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_3 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_3, [0, %sub_55, 0, %sub_54]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up4', 'pad_3']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+Ô
+sub_54
+val_128val_218node_Reshape_214"Reshape*
+	allowzero †J_
+	namespaceR: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/pad_3: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_3 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_3, [0, %sub_55, 0, %sub_54]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up4', 'pad_3']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ü
+val_127
+val_127
+val_127
+val_127
+val_127
+val_127
+val_218
+val_216val_220node_Concat_216"Concat*
+axis †J_
+	namespaceR: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/pad_3: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_3 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_3, [0, %sub_55, 0, %sub_54]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up4', 'pad_3']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ı
+upsample_bilinear2d_3
+val_220pad_3
+node_pad_3"Pad*
+mode"constant†J_
+	namespaceR: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/pad_3: aten.pad.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.pad.default']J¨
+pkg.torch.onnx.fx_nodeë%pad_3 : [num_users=1] = call_function[target=torch.ops.aten.pad.default](args = (%upsample_bilinear2d_3, [0, %sub_55, 0, %sub_54]), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up4', 'pad_3']JÔ
+pkg.torch.onnx.stack_trace–File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 54, in forward
+    x1 = F.pad(x1, [diffX // 2, diffX - diffX // 2, diffY // 2, diffY - diffY // 2])
+ê
+relu_1
+pad_3cat_3
+node_cat_3"Concat*
+axis†J_
+	namespaceR: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/cat_3: aten.cat.defaultJp
+pkg.torch.onnx.class_hierarchyN['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'aten.cat.default']Jè
+pkg.torch.onnx.fx_nodeu%cat_3 : [num_users=1] = call_function[target=torch.ops.aten.cat.default](args = ([%relu_1, %pad_3], 1), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'up4', 'cat_3']JΩ
+pkg.torch.onnx.stack_traceûFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 55, in forward
+    x = torch.cat([x2, x1], dim=1)
+¿
+cat_3
+up4.conv.double_conv.0.weight
+"up4.conv.double_conv.0.weight_bias
+getitem_48node_Conv_326"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†J∆
+	namespace∏: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/up4.conv: models.fabric_unet.DoubleConv/up4.conv.double_conv: torch.nn.modules.container.Sequential/up4.conv.double_conv.1: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_16: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÜ
+pkg.torch.onnx.class_hierarchy„['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÊ
+pkg.torch.onnx.fx_nodeÀ%_native_batch_norm_legit_no_training_16 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_16, %p_up4_conv_double_conv_1_weight, %p_up4_conv_double_conv_1_bias, %b_up4_conv_double_conv_1_running_mean, %b_up4_conv_double_conv_1_running_var, 0.1, 1e-05), kwargs = {})Jí
+pkg.torch.onnx.name_scopest['', 'up4', 'up4.conv', 'up4.conv.double_conv', 'up4.conv.double_conv.1', '_native_batch_norm_legit_no_training_16']Jµ
+pkg.torch.onnx.stack_traceñFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+ﬂ
+
+getitem_48relu_16node_relu_16"ReluJÄ
+	namespaceÚ: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/up4.conv: models.fabric_unet.DoubleConv/up4.conv.double_conv: torch.nn.modules.container.Sequential/up4.conv.double_conv.2: torch.nn.modules.activation.ReLU/relu_16: aten.relu.defaultJ‡
+pkg.torch.onnx.class_hierarchyΩ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jä
+pkg.torch.onnx.fx_nodep%relu_16 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_48,), kwargs = {})Jr
+pkg.torch.onnx.name_scopesT['', 'up4', 'up4.conv', 'up4.conv.double_conv', 'up4.conv.double_conv.2', 'relu_16']JÃ
+pkg.torch.onnx.stack_trace≠File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+¬
+relu_16
+up4.conv.double_conv.3.weight
+"up4.conv.double_conv.3.weight_bias
+getitem_51node_Conv_328"Conv*
+group†*
+pads@@@@†*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†J∆
+	namespace∏: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/up4.conv: models.fabric_unet.DoubleConv/up4.conv.double_conv: torch.nn.modules.container.Sequential/up4.conv.double_conv.4: torch.nn.modules.batchnorm.BatchNorm2d/_native_batch_norm_legit_no_training_17: aten._native_batch_norm_legit_no_training.defaultJV
+!pkg.onnxscript.rewriter.rule_name1FuseBatchNormIntoConv, RemoveOptionalBiasFromConvJÜ
+pkg.torch.onnx.class_hierarchy„['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.batchnorm.BatchNorm2d', 'aten._native_batch_norm_legit_no_training.default']JÊ
+pkg.torch.onnx.fx_nodeÀ%_native_batch_norm_legit_no_training_17 : [num_users=1] = call_function[target=torch.ops.aten._native_batch_norm_legit_no_training.default](args = (%conv2d_17, %p_up4_conv_double_conv_4_weight, %p_up4_conv_double_conv_4_bias, %b_up4_conv_double_conv_4_running_mean, %b_up4_conv_double_conv_4_running_var, 0.1, 1e-05), kwargs = {})Jí
+pkg.torch.onnx.name_scopest['', 'up4', 'up4.conv', 'up4.conv.double_conv', 'up4.conv.double_conv.4', '_native_batch_norm_legit_no_training_17']Jµ
+pkg.torch.onnx.stack_traceñFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/batchnorm.py", line 210, in forward
+    return F.batch_norm(
+ﬂ
+
+getitem_51relu_17node_relu_17"ReluJÄ
+	namespaceÚ: models.fabric_unet.FabricUNet/up4: models.fabric_unet.Up/up4.conv: models.fabric_unet.DoubleConv/up4.conv.double_conv: torch.nn.modules.container.Sequential/up4.conv.double_conv.5: torch.nn.modules.activation.ReLU/relu_17: aten.relu.defaultJ‡
+pkg.torch.onnx.class_hierarchyΩ['models.fabric_unet.FabricUNet', 'models.fabric_unet.Up', 'models.fabric_unet.DoubleConv', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.ReLU', 'aten.relu.default']Jä
+pkg.torch.onnx.fx_nodep%relu_17 : [num_users=1] = call_function[target=torch.ops.aten.relu.default](args = (%getitem_51,), kwargs = {})Jr
+pkg.torch.onnx.name_scopesT['', 'up4', 'up4.conv', 'up4.conv.double_conv', 'up4.conv.double_conv.5', 'relu_17']JÃ
+pkg.torch.onnx.stack_trace≠File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 93, in forward
+    x = self.up4(x, x1)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 56, in forward
+    return self.conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 28, in forward
+    return self.double_conv(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/container.py", line 259, in forward
+    input = module(input)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 143, in forward
+    return F.relu(input, inplace=self.inplace)
+ã
+relu_17
+outc.weight
+	outc.bias	conv2d_18node_conv2d_18"Conv*
+group†*
+pads@ @ @ @ †*
+kernel_shape@@†*
+strides@@†*
+auto_pad"NOTSET†*
+	dilations@@†Jn
+	namespacea: models.fabric_unet.FabricUNet/outc: torch.nn.modules.conv.Conv2d/conv2d_18: aten.conv2d.defaultJz
+pkg.torch.onnx.class_hierarchyX['models.fabric_unet.FabricUNet', 'torch.nn.modules.conv.Conv2d', 'aten.conv2d.default']J©
+pkg.torch.onnx.fx_nodeé%conv2d_18 : [num_users=1] = call_function[target=torch.ops.aten.conv2d.default](args = (%relu_17, %p_outc_weight, %p_outc_bias), kwargs = {})J7
+pkg.torch.onnx.name_scopes['', 'outc', 'conv2d_18']JÄ
+pkg.torch.onnx.stack_trace·File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 94, in forward
+    logits = self.outc(x)
+  File "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/.venv/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 565, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+≈
+	conv2d_18outputnode_sigmoid"SigmoidJJ
+	namespace=: models.fabric_unet.FabricUNet/sigmoid: aten.sigmoid.defaultJ[
+pkg.torch.onnx.class_hierarchy9['models.fabric_unet.FabricUNet', 'aten.sigmoid.default']Jå
+pkg.torch.onnx.fx_noder%sigmoid : [num_users=1] = call_function[target=torch.ops.aten.sigmoid.default](args = (%conv2d_18,), kwargs = {})J-
+pkg.torch.onnx.name_scopes['', 'sigmoid']J±
+pkg.torch.onnx.stack_traceíFile "/Users/doupi1/.gemini/antigravity/scratch/zipper-fabric-models/models/fabric_unet.py", line 96, in forward
+    probs = torch.sigmoid(logits)
+main_graph*mBinc.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset0j
+length576p*YBoutc.weightJ@b˚B=Ívæ£G?>'’áæ*paæ≠ÿ°Ω•>|Ø.æãLüΩtÜ·Ωˇò>Ö#"æeÍÓºÌêR=•Ω…º=*B	outc.biasJ/†ÄΩ*pBinc.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset576j
+length9216p*É B)down1.maxpool_conv.1.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset9792j
+length18432p*Ñ  B)down1.maxpool_conv.1.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset28224j
+length36864p*Ñ@ B)down2.maxpool_conv.1.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset65088j
+length73728p*Ü@@B)down2.maxpool_conv.1.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset138816j
+length147456p*áÄ@B)down3.maxpool_conv.1.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset286272j
+length294912p*àÄÄB)down3.maxpool_conv.1.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset581184j
+length589824p*âÄÄB)down4.maxpool_conv.1.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset1171008j
+length589824p*âÄÄB)down4.maxpool_conv.1.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset1760832j
+length589824p*~ÄÄBup1.conv.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset2350656j
+length1179648p*|@ÄBup1.conv.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset3530304j
+length294912p*|@ÄBup2.conv.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset3825216j
+length294912p*z @Bup2.conv.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset4120128j
+length73728p*z @Bup3.conv.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset4193856j
+length73728p*z Bup3.conv.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset4267584j
+length18432p*z Bup4.conv.double_conv.0.weightj)
+locationfabric_segmentation.onnx.dataj
+offset4286016j
+length18432p*yBup4.conv.double_conv.3.weightj)
+locationfabric_segmentation.onnx.dataj
+offset4304448j
+length9216p*eBinc.double_conv.0.weight_biasJ@,·Êø– @Œò@.e@‰Ç æd¿œ¿“§?π««?ÿrº?π∂ÒøÙﬁR?äøüMJ?’@ƒ?*eBinc.double_conv.3.weight_biasJ@ÙF?ÔÅ¯>¸ãÉ>Ω?;øıæóX>'éæE¢ë>bï≥>•\?¿h?xΩÇ>?!ØC?R∆€>pE¨>*∑ B.down1.maxpool_conv.1.double_conv.0.weight_biasJÄÀeø2O¿íg?D4¶øúãr?Ië&>öÛ¢=ÓœπæUëœæ·ïøvIøº9?øøP?/1ëæ7Î∫æã∑O?P≠tøåWæ~Ø´øÎø<i«ø‚G=y¥û?=eâæÊKã>aê‡øÓ\lø÷fRø”6 æ„…æ7B©ød :*∑ B.down1.maxpool_conv.1.double_conv.3.weight_biasJÄëú>≥À∫ø^=T=Ÿ‹1øì¡°>‚Õ®>…q‹>Ñ8ø˜·z?≈*æ“ úΩpˇ¢ªûú?’˙à?9, ø@°º◊8·ø{zeøÿ^Iø/ç∂æiÎé?‚/¯>€øÍ5ÅøÅŒø˜óy?∫åøf„∑?ç±*<ÿ˘[øíŸUæÑjÄø*∑@B.down2.maxpool_conv.1.double_conv.0.weight_biasJÄπìﬂøB√øßÓOø±ÂrøÑ&–?5ç<∏?ŒæÈâÃø@÷ûøö≥™?uDÑæƒ…¥æ—≈2?uËæN‹ øc‚π?Q‹ÆæÔ·ˆ?j†.øÊ,æøÌÓÒø”ßÌ>QRºø√›eø⁄Ziø°™øÌï‘?qûøÚ?ï<–?Zø‰gπæÔ¿ø:÷>'≠?Sq«ø¿ï‘øá¶?à6®?	sl>bJ<?”â≠øäﬁΩ/˛øK…øNˆ†>]sVøëøøæs?Íçöæ∑†≤?§XøÏÈ∂æ*∆eæ~MÍø©‡n?çúüø\-0?B¡8?¡Iø‰“?ÄZøÒøXAææ*∑@B.down2.maxpool_conv.1.double_conv.3.weight_biasJÄ˚˛%?øc9?÷=ã>ﬂjŒæ^e!øÊ≈?|@áø≠ôÄΩßúÂ>∞ÀVø¥œØæx~U=cê≥>[4Ø<AÑˆæ∏’0æï∏æîI~>pµΩΩ
+G?(ø›9øæäú&?hØÿæø9?Ü&Ùæ¬hæﬂfˆæÇ/?q√Ω-XæÆ>øa÷q?+bU?ô˚⁄>‰s,ø[õ+>Wt]?Am_æÈmä?gÍWºj•»>¶ûh>êûŸ=¬wàΩÂ<Ø\OΩŒÕæìj%øËIûΩ#p>>ûØ=/•P?é¶îæhp=ÛR>?VpÅøO;røªµ ?S‡Y?ﬂıæ∑æ5ø«ñø>*ÑÄB.down3.maxpool_conv.1.double_conv.0.weight_biasj)
+locationfabric_segmentation.onnx.dataj
+offset4313664j
+length512p*ÑÄB.down3.maxpool_conv.1.double_conv.3.weight_biasj)
+locationfabric_segmentation.onnx.dataj
+offset4314176j
+length512p*ÑÄB.down4.maxpool_conv.1.double_conv.0.weight_biasj)
+locationfabric_segmentation.onnx.dataj
+offset4314688j
+length512p*ÑÄB.down4.maxpool_conv.1.double_conv.3.weight_biasj)
+locationfabric_segmentation.onnx.dataj
+offset4315200j
+length512p*xÄB"up1.conv.double_conv.0.weight_biasj)
+locationfabric_segmentation.onnx.dataj
+offset4315712j
+length512p*´@B"up1.conv.double_conv.3.weight_biasJÄˇB©æÛ≥"?§,ö?⁄5˛æ1fƒøb?7†◊>¥Àå>¥¥?ˇ:?–}´?	>Uøˇ3_øÇE?w‡ûæ…N$?&æ¯'ñ>ü%>ıî[øÍ≠∑>Dlﬁæf¥á?Îı=ø≥ˆçøç˚æÍóÁæ4◊æ<<¯>Cr,?69ÒºÓY˚=ÓH>?Äè?Xø°æ⁄]óΩv_⁄>õ1+?∏ãΩ€Ã%>åUw?ôH<Ω∞∫∂>€w≈Ω\Ûæã{>ñK
+@ÓRë?gO?µmÚæ£;b?Fo2=>Ü?ˆøò=Z?tí8?õƒÆ>∂Æ±?à¯&?úé>&'2>Pó/øbzî=6∞*º*´@B"up2.conv.double_conv.0.weight_biasJÄ1¡(?*ã¬?í*d>˘?C‡I>=Á?⁄LBø˜æ=K?9øÒ¥í>€}?f˜§?9«æ∂o?Å•?˜&ô?µ¢)?•@:0OøK}Ä?,	5?Ìsøæ*äøZåàøz4`?`â>$4?ËFW?ÌµE?ÎKE?≠Üø£B˘=Ô¯>Õ˜>∫n>ÀÊ¢øÆ°ëøÔû∆>R>í?°}?œˆ	?iÖ?ÁÅ˙>…øí?Jåyø§¸4?d»?£°\?gÖ	ø!ÄΩ·ÍOæycí?≤ˇàøéX?ÿ5 >Hô—>Øƒ?ÇJ"?C8M?ã·ˇ=í—»>ƒ2î>e#ø*´ B"up2.conv.double_conv.3.weight_biasJÄbk>tJŸΩ2ô¨æwW1?H∑&Ω›ùΩ<	mø«?æ!€'=nÍ·æ∏—[?!ëã>‰ìK?ñ•>áB…>∂µ=Ø`L?‘‰>úH>∞!bæáQîø£pºeä≥>{ÛæÒ„Î=∞	…æföæ<Óÿ>øg?)†§>É#æ+ˆnæ*´ B"up3.conv.double_conv.0.weight_biasJÄ‚üÅ?é˙WΩ‹<>cÖ¿=V\ææ¸ﬁÿæˇ˚Zø(â>°ö=?o\RøËp¨>¥& >«ﬂÑæ˝ô%?ìºæÎYä>ø®?cÓΩ\ {øãbæﬁvÒæò¬?D>Î>£‡ø˙„?Ô&æøÖF?X22?rª>Á≈û=àQ6º›£Æ>*jB"up3.conv.double_conv.3.weight_biasJ@@"?sûá>éÖ?¬à>ù_5?.ÁF<ÅŸê?Ëœøé©x?!∑æ~ÀY>=2t>Ì›ΩBì>§É
+?}‰Ω*jB"up4.conv.double_conv.0.weight_biasJ@`1?◊ø◊à?àøQA3?∫ÚΩæCmøÇ¿î?QS ?¡ÿ>‘e@?nks>·ˇyæ+∏†øî/?Ô≈√>*jB"up4.conv.double_conv.3.weight_biasJ@:g=≤r:øzÃÇΩ©é´>|˚óæ∫ê>2eÿæﬁ Û>ˆf≠ΩÆu?j¢˘Ω(›ﬂ>ä•?ŸÃ‹æ·˜πæ%™É>*Bval_4J       *Bval_6J       *Bval_7J       *Bval_8J       *Bval_126J  Ä?  Ä?   @   @*Bval_127J        *Bval_128JˇˇˇˇˇˇˇˇZ⁄
+input+
+)%
+
+batch_size
+
+height
+width"=
+/pkg.torch.export.graph_signature.InputSpec.kind
+USER_INPUT"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"&
+!pkg.torch.onnx.original_node_namexb§
+output+
+)%
+
+batch_size
+
+height
+width"?
+0pkg.torch.export.graph_signature.OutputSpec.kindUSER_OUTPUT",
+!pkg.torch.onnx.original_node_namesigmoidj2
+inc.double_conv.0.weight
+
+
+
+
+j÷
+outc.weight
+
+
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"2
+!pkg.torch.onnx.original_node_namep_outc_weightj∆
+	outc.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"0
+!pkg.torch.onnx.original_node_namep_outc_biasj2
+inc.double_conv.3.weight
+
+
+
+
+jC
+)down1.maxpool_conv.1.double_conv.0.weight
+
+ 
+
+
+jC
+)down1.maxpool_conv.1.double_conv.3.weight
+
+ 
+ 
+
+jC
+)down2.maxpool_conv.1.double_conv.0.weight
+
+@
+ 
+
+jC
+)down2.maxpool_conv.1.double_conv.3.weight
+
+@
+@
+
+jD
+)down3.maxpool_conv.1.double_conv.0.weight
+
+Ä
+@
+
+jE
+)down3.maxpool_conv.1.double_conv.3.weight
+
+Ä
+Ä
+
+jE
+)down4.maxpool_conv.1.double_conv.0.weight
+
+Ä
+Ä
+
+jE
+)down4.maxpool_conv.1.double_conv.3.weight
+
+Ä
+Ä
+
+j9
+up1.conv.double_conv.0.weight
+
+Ä
+Ä
+
+j8
+up1.conv.double_conv.3.weight
+
+@
+Ä
+
+j8
+up2.conv.double_conv.0.weight
+
+@
+Ä
+
+j7
+up2.conv.double_conv.3.weight
+
+ 
+@
+
+j7
+up3.conv.double_conv.0.weight
+
+ 
+@
+
+j7
+up3.conv.double_conv.3.weight
+
+
+ 
+
+j7
+up4.conv.double_conv.0.weight
+
+
+ 
+
+j7
+up4.conv.double_conv.3.weight
+
+
+
+
+j+
+inc.double_conv.0.weight_bias
+
+
+j+
+inc.double_conv.3.weight_bias
+
+
+j<
+.down1.maxpool_conv.1.double_conv.0.weight_bias
+
+
+ j<
+.down1.maxpool_conv.1.double_conv.3.weight_bias
+
+
+ j<
+.down2.maxpool_conv.1.double_conv.0.weight_bias
+
+
+@j<
+.down2.maxpool_conv.1.double_conv.3.weight_bias
+
+
+@j=
+.down3.maxpool_conv.1.double_conv.0.weight_bias
+	
+Äj=
+.down3.maxpool_conv.1.double_conv.3.weight_bias
+	
+Äj=
+.down4.maxpool_conv.1.double_conv.0.weight_bias
+	
+Äj=
+.down4.maxpool_conv.1.double_conv.3.weight_bias
+	
+Äj1
+"up1.conv.double_conv.0.weight_bias
+	
+Äj0
+"up1.conv.double_conv.3.weight_bias
+
+
+@j0
+"up2.conv.double_conv.0.weight_bias
+
+
+@j0
+"up2.conv.double_conv.3.weight_bias
+
+
+ j0
+"up3.conv.double_conv.0.weight_bias
+
+
+ j0
+"up3.conv.double_conv.3.weight_bias
+
+
+j0
+"up4.conv.double_conv.0.weight_bias
+
+
+j0
+"up4.conv.double_conv.3.weight_bias
+
+
+j
+val_4
+ j
+val_6
+ j
+val_7
+ j
+val_8
+ j
+val_126
+
+
+j
+val_127
+
+
+j
+val_128
+
+
+j
+val_1
+
+
+j
+sym_size_int_40
+ j
+val_2
+
+
+j
+sym_size_int_41
+ j
+floordiv_16
+ j
+floordiv_17
+ j
+floordiv_18
+ j
+floordiv_19
+ j
+floordiv_20
+ j
+floordiv_21
+ j
+floordiv_22
+ j
+floordiv_23
+ j6
+getitem+
+)%
+
+batch_size
+
+height
+widthj3
+relu+
+)%
+
+batch_size
+
+height
+widthj8
+	getitem_3+
+)%
+
+batch_size
+
+height
+widthj5
+relu_1+
+)%
+
+batch_size
+
+height
+widthjC
+
+max_pool2d5
+3/
+
+batch_size
+
+(height//2)
+
+(width//2)jB
+	getitem_65
+3/
+
+batch_size
+ 
+(height//2)
+
+(width//2)j?
+relu_25
+3/
+
+batch_size
+ 
+(height//2)
+
+(width//2)jB
+	getitem_95
+3/
+
+batch_size
+ 
+(height//2)
+
+(width//2)j?
+relu_35
+3/
+
+batch_size
+ 
+(height//2)
+
+(width//2)jE
+max_pool2d_15
+3/
+
+batch_size
+ 
+(height//4)
+
+(width//4)jC
+
+getitem_125
+3/
+
+batch_size
+@
+(height//4)
+
+(width//4)j?
+relu_45
+3/
+
+batch_size
+@
+(height//4)
+
+(width//4)jC
+
+getitem_155
+3/
+
+batch_size
+@
+(height//4)
+
+(width//4)j?
+relu_55
+3/
+
+batch_size
+@
+(height//4)
+
+(width//4)jE
+max_pool2d_25
+3/
+
+batch_size
+@
+(height//8)
+
+(width//8)jD
+
+getitem_186
+40
+
+batch_size
+Ä
+(height//8)
+
+(width//8)j@
+relu_66
+40
+
+batch_size
+Ä
+(height//8)
+
+(width//8)jD
+
+getitem_216
+40
+
+batch_size
+Ä
+(height//8)
+
+(width//8)j@
+relu_76
+40
+
+batch_size
+Ä
+(height//8)
+
+(width//8)jH
+max_pool2d_38
+62
+
+batch_size
+Ä
+(height//16)
+(width//16)jF
+
+getitem_248
+62
+
+batch_size
+Ä
+(height//16)
+(width//16)jB
+relu_88
+62
+
+batch_size
+Ä
+(height//16)
+(width//16)jF
+
+getitem_278
+62
+
+batch_size
+Ä
+(height//16)
+(width//16)jB
+relu_98
+62
+
+batch_size
+Ä
+(height//16)
+(width//16)jW
+upsample_bilinear2d@
+>:
+
+batch_size
+Ä
+2*((height//16))
+2*((width//16))j
+mul_79
+ j
+sub_30
+ j
+mul_80
+ j
+sub_31
+ j
+val_129
+
+
+j
+val_131
+
+
+j
+val_133
+
+
+j=
+pad6
+40
+
+batch_size
+Ä
+(height//8)
+
+(width//8)j=
+cat6
+40
+
+batch_size
+Ä
+(height//8)
+
+(width//8)jD
+
+getitem_306
+40
+
+batch_size
+Ä
+(height//8)
+
+(width//8)jA
+relu_106
+40
+
+batch_size
+Ä
+(height//8)
+
+(width//8)jC
+
+getitem_335
+3/
+
+batch_size
+@
+(height//8)
+
+(width//8)j@
+relu_115
+3/
+
+batch_size
+@
+(height//8)
+
+(width//8)jV
+upsample_bilinear2d_1=
+;7
+
+batch_size
+@
+2*((height//8))
+2*((width//8))j
+mul_95
+ j
+sub_38
+ j
+mul_96
+ j
+sub_39
+ j
+val_158
+
+
+j
+val_160
+
+
+j
+val_162
+
+
+j>
+pad_15
+3/
+
+batch_size
+@
+(height//4)
+
+(width//4)j?
+cat_16
+40
+
+batch_size
+Ä
+(height//4)
+
+(width//4)jC
+
+getitem_365
+3/
+
+batch_size
+@
+(height//4)
+
+(width//4)j@
+relu_125
+3/
+
+batch_size
+@
+(height//4)
+
+(width//4)jC
+
+getitem_395
+3/
+
+batch_size
+ 
+(height//4)
+
+(width//4)j@
+relu_135
+3/
+
+batch_size
+ 
+(height//4)
+
+(width//4)jV
+upsample_bilinear2d_2=
+;7
+
+batch_size
+ 
+2*((height//4))
+2*((width//4))j
+mul_111
+ j
+sub_46
+ j
+mul_112
+ j
+sub_47
+ j
+val_187
+
+
+j
+val_189
+
+
+j
+val_191
+
+
+j>
+pad_25
+3/
+
+batch_size
+ 
+(height//2)
+
+(width//2)j>
+cat_25
+3/
+
+batch_size
+@
+(height//2)
+
+(width//2)jC
+
+getitem_425
+3/
+
+batch_size
+ 
+(height//2)
+
+(width//2)j@
+relu_145
+3/
+
+batch_size
+ 
+(height//2)
+
+(width//2)jC
+
+getitem_455
+3/
+
+batch_size
+
+(height//2)
+
+(width//2)j@
+relu_155
+3/
+
+batch_size
+
+(height//2)
+
+(width//2)jV
+upsample_bilinear2d_3=
+;7
+
+batch_size
+
+2*((height//2))
+2*((width//2))j
+mul_127
+ j
+sub_54
+ j
+mul_128
+ j
+sub_55
+ j
+val_216
+
+
+j
+val_218
+
+
+j
+val_220
+
+
+j4
+pad_3+
+)%
+
+batch_size
+
+height
+widthj4
+cat_3+
+)%
+
+batch_size
+ 
+height
+widthj9
+
+getitem_48+
+)%
+
+batch_size
+
+height
+widthj6
+relu_16+
+)%
+
+batch_size
+
+height
+widthj9
+
+getitem_51+
+)%
+
+batch_size
+
+height
+widthj6
+relu_17+
+)%
+
+batch_size
+
+height
+widthj8
+	conv2d_18+
+)%
+
+batch_size
+
+height
+widthÇªZ
+0pkg.torch.export.ExportedProgram.graph_signatureÜZ
+# inputs
+p_inc_double_conv_0_weight: PARAMETER target='inc.double_conv.0.weight'
+p_inc_double_conv_1_weight: PARAMETER target='inc.double_conv.1.weight'
+p_inc_double_conv_1_bias: PARAMETER target='inc.double_conv.1.bias'
+p_inc_double_conv_3_weight: PARAMETER target='inc.double_conv.3.weight'
+p_inc_double_conv_4_weight: PARAMETER target='inc.double_conv.4.weight'
+p_inc_double_conv_4_bias: PARAMETER target='inc.double_conv.4.bias'
+p_down1_maxpool_conv_1_double_conv_0_weight: PARAMETER target='down1.maxpool_conv.1.double_conv.0.weight'
+p_down1_maxpool_conv_1_double_conv_1_weight: PARAMETER target='down1.maxpool_conv.1.double_conv.1.weight'
+p_down1_maxpool_conv_1_double_conv_1_bias: PARAMETER target='down1.maxpool_conv.1.double_conv.1.bias'
+p_down1_maxpool_conv_1_double_conv_3_weight: PARAMETER target='down1.maxpool_conv.1.double_conv.3.weight'
+p_down1_maxpool_conv_1_double_conv_4_weight: PARAMETER target='down1.maxpool_conv.1.double_conv.4.weight'
+p_down1_maxpool_conv_1_double_conv_4_bias: PARAMETER target='down1.maxpool_conv.1.double_conv.4.bias'
+p_down2_maxpool_conv_1_double_conv_0_weight: PARAMETER target='down2.maxpool_conv.1.double_conv.0.weight'
+p_down2_maxpool_conv_1_double_conv_1_weight: PARAMETER target='down2.maxpool_conv.1.double_conv.1.weight'
+p_down2_maxpool_conv_1_double_conv_1_bias: PARAMETER target='down2.maxpool_conv.1.double_conv.1.bias'
+p_down2_maxpool_conv_1_double_conv_3_weight: PARAMETER target='down2.maxpool_conv.1.double_conv.3.weight'
+p_down2_maxpool_conv_1_double_conv_4_weight: PARAMETER target='down2.maxpool_conv.1.double_conv.4.weight'
+p_down2_maxpool_conv_1_double_conv_4_bias: PARAMETER target='down2.maxpool_conv.1.double_conv.4.bias'
+p_down3_maxpool_conv_1_double_conv_0_weight: PARAMETER target='down3.maxpool_conv.1.double_conv.0.weight'
+p_down3_maxpool_conv_1_double_conv_1_weight: PARAMETER target='down3.maxpool_conv.1.double_conv.1.weight'
+p_down3_maxpool_conv_1_double_conv_1_bias: PARAMETER target='down3.maxpool_conv.1.double_conv.1.bias'
+p_down3_maxpool_conv_1_double_conv_3_weight: PARAMETER target='down3.maxpool_conv.1.double_conv.3.weight'
+p_down3_maxpool_conv_1_double_conv_4_weight: PARAMETER target='down3.maxpool_conv.1.double_conv.4.weight'
+p_down3_maxpool_conv_1_double_conv_4_bias: PARAMETER target='down3.maxpool_conv.1.double_conv.4.bias'
+p_down4_maxpool_conv_1_double_conv_0_weight: PARAMETER target='down4.maxpool_conv.1.double_conv.0.weight'
+p_down4_maxpool_conv_1_double_conv_1_weight: PARAMETER target='down4.maxpool_conv.1.double_conv.1.weight'
+p_down4_maxpool_conv_1_double_conv_1_bias: PARAMETER target='down4.maxpool_conv.1.double_conv.1.bias'
+p_down4_maxpool_conv_1_double_conv_3_weight: PARAMETER target='down4.maxpool_conv.1.double_conv.3.weight'
+p_down4_maxpool_conv_1_double_conv_4_weight: PARAMETER target='down4.maxpool_conv.1.double_conv.4.weight'
+p_down4_maxpool_conv_1_double_conv_4_bias: PARAMETER target='down4.maxpool_conv.1.double_conv.4.bias'
+p_up1_conv_double_conv_0_weight: PARAMETER target='up1.conv.double_conv.0.weight'
+p_up1_conv_double_conv_1_weight: PARAMETER target='up1.conv.double_conv.1.weight'
+p_up1_conv_double_conv_1_bias: PARAMETER target='up1.conv.double_conv.1.bias'
+p_up1_conv_double_conv_3_weight: PARAMETER target='up1.conv.double_conv.3.weight'
+p_up1_conv_double_conv_4_weight: PARAMETER target='up1.conv.double_conv.4.weight'
+p_up1_conv_double_conv_4_bias: PARAMETER target='up1.conv.double_conv.4.bias'
+p_up2_conv_double_conv_0_weight: PARAMETER target='up2.conv.double_conv.0.weight'
+p_up2_conv_double_conv_1_weight: PARAMETER target='up2.conv.double_conv.1.weight'
+p_up2_conv_double_conv_1_bias: PARAMETER target='up2.conv.double_conv.1.bias'
+p_up2_conv_double_conv_3_weight: PARAMETER target='up2.conv.double_conv.3.weight'
+p_up2_conv_double_conv_4_weight: PARAMETER target='up2.conv.double_conv.4.weight'
+p_up2_conv_double_conv_4_bias: PARAMETER target='up2.conv.double_conv.4.bias'
+p_up3_conv_double_conv_0_weight: PARAMETER target='up3.conv.double_conv.0.weight'
+p_up3_conv_double_conv_1_weight: PARAMETER target='up3.conv.double_conv.1.weight'
+p_up3_conv_double_conv_1_bias: PARAMETER target='up3.conv.double_conv.1.bias'
+p_up3_conv_double_conv_3_weight: PARAMETER target='up3.conv.double_conv.3.weight'
+p_up3_conv_double_conv_4_weight: PARAMETER target='up3.conv.double_conv.4.weight'
+p_up3_conv_double_conv_4_bias: PARAMETER target='up3.conv.double_conv.4.bias'
+p_up4_conv_double_conv_0_weight: PARAMETER target='up4.conv.double_conv.0.weight'
+p_up4_conv_double_conv_1_weight: PARAMETER target='up4.conv.double_conv.1.weight'
+p_up4_conv_double_conv_1_bias: PARAMETER target='up4.conv.double_conv.1.bias'
+p_up4_conv_double_conv_3_weight: PARAMETER target='up4.conv.double_conv.3.weight'
+p_up4_conv_double_conv_4_weight: PARAMETER target='up4.conv.double_conv.4.weight'
+p_up4_conv_double_conv_4_bias: PARAMETER target='up4.conv.double_conv.4.bias'
+p_outc_weight: PARAMETER target='outc.weight'
+p_outc_bias: PARAMETER target='outc.bias'
+b_inc_double_conv_1_running_mean: BUFFER target='inc.double_conv.1.running_mean' persistent=True
+b_inc_double_conv_1_running_var: BUFFER target='inc.double_conv.1.running_var' persistent=True
+b_inc_double_conv_1_num_batches_tracked: BUFFER target='inc.double_conv.1.num_batches_tracked' persistent=True
+b_inc_double_conv_4_running_mean: BUFFER target='inc.double_conv.4.running_mean' persistent=True
+b_inc_double_conv_4_running_var: BUFFER target='inc.double_conv.4.running_var' persistent=True
+b_inc_double_conv_4_num_batches_tracked: BUFFER target='inc.double_conv.4.num_batches_tracked' persistent=True
+b_down1_maxpool_conv_1_double_conv_1_running_mean: BUFFER target='down1.maxpool_conv.1.double_conv.1.running_mean' persistent=True
+b_down1_maxpool_conv_1_double_conv_1_running_var: BUFFER target='down1.maxpool_conv.1.double_conv.1.running_var' persistent=True
+b_down1_maxpool_conv_1_double_conv_1_num_batches_tracked: BUFFER target='down1.maxpool_conv.1.double_conv.1.num_batches_tracked' persistent=True
+b_down1_maxpool_conv_1_double_conv_4_running_mean: BUFFER target='down1.maxpool_conv.1.double_conv.4.running_mean' persistent=True
+b_down1_maxpool_conv_1_double_conv_4_running_var: BUFFER target='down1.maxpool_conv.1.double_conv.4.running_var' persistent=True
+b_down1_maxpool_conv_1_double_conv_4_num_batches_tracked: BUFFER target='down1.maxpool_conv.1.double_conv.4.num_batches_tracked' persistent=True
+b_down2_maxpool_conv_1_double_conv_1_running_mean: BUFFER target='down2.maxpool_conv.1.double_conv.1.running_mean' persistent=True
+b_down2_maxpool_conv_1_double_conv_1_running_var: BUFFER target='down2.maxpool_conv.1.double_conv.1.running_var' persistent=True
+b_down2_maxpool_conv_1_double_conv_1_num_batches_tracked: BUFFER target='down2.maxpool_conv.1.double_conv.1.num_batches_tracked' persistent=True
+b_down2_maxpool_conv_1_double_conv_4_running_mean: BUFFER target='down2.maxpool_conv.1.double_conv.4.running_mean' persistent=True
+b_down2_maxpool_conv_1_double_conv_4_running_var: BUFFER target='down2.maxpool_conv.1.double_conv.4.running_var' persistent=True
+b_down2_maxpool_conv_1_double_conv_4_num_batches_tracked: BUFFER target='down2.maxpool_conv.1.double_conv.4.num_batches_tracked' persistent=True
+b_down3_maxpool_conv_1_double_conv_1_running_mean: BUFFER target='down3.maxpool_conv.1.double_conv.1.running_mean' persistent=True
+b_down3_maxpool_conv_1_double_conv_1_running_var: BUFFER target='down3.maxpool_conv.1.double_conv.1.running_var' persistent=True
+b_down3_maxpool_conv_1_double_conv_1_num_batches_tracked: BUFFER target='down3.maxpool_conv.1.double_conv.1.num_batches_tracked' persistent=True
+b_down3_maxpool_conv_1_double_conv_4_running_mean: BUFFER target='down3.maxpool_conv.1.double_conv.4.running_mean' persistent=True
+b_down3_maxpool_conv_1_double_conv_4_running_var: BUFFER target='down3.maxpool_conv.1.double_conv.4.running_var' persistent=True
+b_down3_maxpool_conv_1_double_conv_4_num_batches_tracked: BUFFER target='down3.maxpool_conv.1.double_conv.4.num_batches_tracked' persistent=True
+b_down4_maxpool_conv_1_double_conv_1_running_mean: BUFFER target='down4.maxpool_conv.1.double_conv.1.running_mean' persistent=True
+b_down4_maxpool_conv_1_double_conv_1_running_var: BUFFER target='down4.maxpool_conv.1.double_conv.1.running_var' persistent=True
+b_down4_maxpool_conv_1_double_conv_1_num_batches_tracked: BUFFER target='down4.maxpool_conv.1.double_conv.1.num_batches_tracked' persistent=True
+b_down4_maxpool_conv_1_double_conv_4_running_mean: BUFFER target='down4.maxpool_conv.1.double_conv.4.running_mean' persistent=True
+b_down4_maxpool_conv_1_double_conv_4_running_var: BUFFER target='down4.maxpool_conv.1.double_conv.4.running_var' persistent=True
+b_down4_maxpool_conv_1_double_conv_4_num_batches_tracked: BUFFER target='down4.maxpool_conv.1.double_conv.4.num_batches_tracked' persistent=True
+b_up1_conv_double_conv_1_running_mean: BUFFER target='up1.conv.double_conv.1.running_mean' persistent=True
+b_up1_conv_double_conv_1_running_var: BUFFER target='up1.conv.double_conv.1.running_var' persistent=True
+b_up1_conv_double_conv_1_num_batches_tracked: BUFFER target='up1.conv.double_conv.1.num_batches_tracked' persistent=True
+b_up1_conv_double_conv_4_running_mean: BUFFER target='up1.conv.double_conv.4.running_mean' persistent=True
+b_up1_conv_double_conv_4_running_var: BUFFER target='up1.conv.double_conv.4.running_var' persistent=True
+b_up1_conv_double_conv_4_num_batches_tracked: BUFFER target='up1.conv.double_conv.4.num_batches_tracked' persistent=True
+b_up2_conv_double_conv_1_running_mean: BUFFER target='up2.conv.double_conv.1.running_mean' persistent=True
+b_up2_conv_double_conv_1_running_var: BUFFER target='up2.conv.double_conv.1.running_var' persistent=True
+b_up2_conv_double_conv_1_num_batches_tracked: BUFFER target='up2.conv.double_conv.1.num_batches_tracked' persistent=True
+b_up2_conv_double_conv_4_running_mean: BUFFER target='up2.conv.double_conv.4.running_mean' persistent=True
+b_up2_conv_double_conv_4_running_var: BUFFER target='up2.conv.double_conv.4.running_var' persistent=True
+b_up2_conv_double_conv_4_num_batches_tracked: BUFFER target='up2.conv.double_conv.4.num_batches_tracked' persistent=True
+b_up3_conv_double_conv_1_running_mean: BUFFER target='up3.conv.double_conv.1.running_mean' persistent=True
+b_up3_conv_double_conv_1_running_var: BUFFER target='up3.conv.double_conv.1.running_var' persistent=True
+b_up3_conv_double_conv_1_num_batches_tracked: BUFFER target='up3.conv.double_conv.1.num_batches_tracked' persistent=True
+b_up3_conv_double_conv_4_running_mean: BUFFER target='up3.conv.double_conv.4.running_mean' persistent=True
+b_up3_conv_double_conv_4_running_var: BUFFER target='up3.conv.double_conv.4.running_var' persistent=True
+b_up3_conv_double_conv_4_num_batches_tracked: BUFFER target='up3.conv.double_conv.4.num_batches_tracked' persistent=True
+b_up4_conv_double_conv_1_running_mean: BUFFER target='up4.conv.double_conv.1.running_mean' persistent=True
+b_up4_conv_double_conv_1_running_var: BUFFER target='up4.conv.double_conv.1.running_var' persistent=True
+b_up4_conv_double_conv_1_num_batches_tracked: BUFFER target='up4.conv.double_conv.1.num_batches_tracked' persistent=True
+b_up4_conv_double_conv_4_running_mean: BUFFER target='up4.conv.double_conv.4.running_mean' persistent=True
+b_up4_conv_double_conv_4_running_var: BUFFER target='up4.conv.double_conv.4.running_var' persistent=True
+b_up4_conv_double_conv_4_num_batches_tracked: BUFFER target='up4.conv.double_conv.4.num_batches_tracked' persistent=True
+x: USER_INPUT
+
+# outputs
+sigmoid: USER_OUTPUT
+Çs
+2pkg.torch.export.ExportedProgram.range_constraints={s77: VR[0, int_oo], s53: VR[16, int_oo], s0: VR[16, int_oo]}B
+ 

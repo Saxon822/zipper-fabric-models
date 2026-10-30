@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets and large raw image folders (~2 GB)
+models.zip
+dataset/
+拉链5号/
+正面/
+牙齿/
+背面/
+*.pth
+*.pt
+runs/
+output/
+
+# Industrial vision cache
+thumbs.data
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
