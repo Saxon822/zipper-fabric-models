@@ -105,7 +105,7 @@ def export_to_onnx(model, onnx_path, img_size=(512, 320), device="cpu"):
 
     os.makedirs(os.path.dirname(onnx_path) or ".", exist_ok=True)
     try:
-        # 优先使用经典兼容 exporter
+        # 优先使用经典兼容 exporter (打包单文件 .onnx，不分离 .data)
         torch.onnx.export(
             model,
             dummy_input,
@@ -113,6 +113,7 @@ def export_to_onnx(model, onnx_path, img_size=(512, 320), device="cpu"):
             export_params=True,
             opset_version=18,
             do_constant_folding=True,
+            dynamo=False,
             input_names=["input"],
             output_names=["output"],
             dynamic_axes={
@@ -127,6 +128,7 @@ def export_to_onnx(model, onnx_path, img_size=(512, 320), device="cpu"):
             onnx_path,
             export_params=True,
             opset_version=18,
+            dynamo=False,
             input_names=["input"],
             output_names=["output"]
         )

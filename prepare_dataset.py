@@ -12,7 +12,7 @@ import argparse
 import cv2
 import numpy as np
 
-def prepare_dataset(raw_dir, output_dir, val_ratio=0.2, max_samples=None, threshold=0):
+def prepare_dataset(raw_dir, output_dir, val_ratio=0.2, max_samples=None, threshold=0, min_mask_ratio=0.15):
     source_dir = os.path.join(raw_dir, "source")
     heatmaps_dir = os.path.join(raw_dir, "heatmaps")
 
@@ -23,15 +23,23 @@ def prepare_dataset(raw_dir, output_dir, val_ratio=0.2, max_samples=None, thresh
     print(f"[*] 扫描到原始图像文件数: {len(source_files)}")
 
     pairs = []
+    skipped_empty = 0
     for sf in source_files:
         stem = os.path.splitext(sf)[0]
         # 布带标注对应类别 1 (_1.png)
         hf = f"{stem}_1.png"
         hf_path = os.path.join(heatmaps_dir, hf)
         if os.path.exists(hf_path):
-            pairs.append((os.path.join(source_dir, sf), hf_path, sf))
+            # 检查掩码有效性 (过滤掉没有标注布带的假空样本)
+            heat = cv2.imread(hf_path, cv2.IMREAD_GRAYSCALE)
+            if heat is not None:
+                mask_ratio = np.mean(heat > threshold)
+                if mask_ratio >= min_mask_ratio:
+                    pairs.append((os.path.join(source_dir, sf), hf_path, sf))
+                else:
+                    skipped_empty += 1
 
-    print(f"[*] 成功匹配到布带标注对数: {len(pairs)}")
+    print(f"[*] 过滤空白/底噪样本: {skipped_empty} 张，保留高质量布带标注对: {len(pairs)} 张")
 
     random.seed(42)
     random.shuffle(pairs)
@@ -82,6 +90,7 @@ if __name__ == "__main__":
     parser.add_argument("--val_ratio", type=float, default=0.2, help="验证集比例")
     parser.add_argument("--max_samples", type=int, default=None, help="最大提取样本数 (空为全量提取)")
     parser.add_argument("--threshold", type=int, default=0, help="热力图二值化判定阈值")
+    parser.add_argument("--min_mask_ratio", type=float, default=0.15, help="保留最小布带掩码比例 (过滤空样本)")
     args = parser.parse_args()
 
-    prepare_dataset(args.raw_dir, args.output_dir, args.val_ratio, args.max_samples, args.threshold)
+    prepare_dataset(args.raw_dir, args.output_dir, args.val_ratio, args.max_samples, args.threshold, args.min_mask_ratio)
